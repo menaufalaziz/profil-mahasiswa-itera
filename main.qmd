@@ -1,0 +1,98 @@
+---
+title : "Pemodelan Mahasiswa ITERA"
+subtitle : "Evaluasi Berbasis Data dengan Bootstrap, Cross Validation, dan Kriteria Informasi"
+author : "Naufal Aziz Ferdian Tampan Membahana"
+date : today
+date-format: "D MMMM YYYY"
+lang: id
+
+
+format:
+  html:
+    toc: true
+    toc-title: "Daftar Isi"
+    toc-depth: 3
+    toc-location: left
+    number-sections: true
+    theme: cosmo
+    highlight-style: github
+    code-fold: true
+    code-summary: "Tampilkan kode"
+    code-tools: true
+    fig-width: 8
+    fig-height: 5
+    fig-align: center
+    df-print: paged
+
+execute:
+  echo: true
+  warning: false
+  message: false
+  cache: false
+---
+
+
+```{r}
+
+# ── Load paket ───────────────────────────────────────────────
+library(tidyverse)
+library(stringr)
+library(boot)
+library(caret)
+library(cluster)
+library(factoextra)
+library(ggplot2)
+library(knitr)
+library(kableExtra)
+library(GGally)
+library(corrplot)
+library(scales)
+library(gridExtra)
+
+# ── Tema ggplot2 global ──────────────────────────────────────
+theme_set(
+  theme_minimal(base_size = 12) +
+    theme(
+      plot.title    = element_text(face = "bold", size = 14),
+      plot.subtitle = element_text(color = "grey40"),
+      legend.position = "bottom"
+    )
+)
+
+set.seed(42)
+```
+
+
+```{r}
+
+#| label-baca data
+
+df_clean <- read_csv("dataset_profil_mahasiswa_ITERA_clean.csv")
+
+str(df_clean)
+```
+
+# Analsis Eskplorasi Data(EDA)
+
+## Ringakasan Statistik
+
+```{r}
+
+#| label : tabel-ringkasan 
+#| tbl-cap: "Statistik deslriptif variabel numerik"
+
+
+#df_clean <- df_clean > mutate(
+#  bmi = round(berat_badan /(tinggi_badan / 100)^2, 2))
+```
+
+
+```{r}
+# df_clean <- select(ipk, jam_belajar_perminggu, tinggi_badan, berat_badan, bmi, jumlah_anggota_keluarga)
+
+
+
+
+```
+
+```

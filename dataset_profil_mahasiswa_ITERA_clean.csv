@@ -1,0 +1,459 @@
+prodi,ipk,jenis_kelamin,tinggi_badan,berat_badan,pendidikan_terakhir,jam_belajar_perminggu,penerima_beasiswa,status_pekerjaan,akses_internet,keterlibatan_organisasi,uang_saku,jenis_tempat_tinggal,jarak_dari_kampus,pekerjaan_ayah,pekerjaan_ibu,pendapatan_orangtua,jumlah_anggota_keluarga,bmi
+Sains Data,3.4,Laki-laki,160.0,50.0,SMA,3.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif kegiatan akademik,500k - 1jt,Asrama,< 1 km,Petani/ Nelayan,Ibu Rumah Tangga,< 1jt,4,19.53
+Matematika,3.8,Laki-laki,169.0,57.0,SMA,48.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Kos,< 1 km,Wiraswata,Ibu Rumah Tangga,3jt - 5jt,3,19.96
+Sains Data,3.4,Perempuan,150.0,39.0,SMA,9.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,1 km - 2 km,Wiraswata,Ibu Rumah Tangga,< 1jt,5,17.33
+Sains Data,3.86,Laki-laki,170.0,65.0,SMA,4.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,1 km - 2 km,Petani/ Nelayan,Ibu Rumah Tangga,1jt - 3jt,4,22.49
+Sains Data,3.97,Laki-laki,170.0,63.0,SMA,30.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,"1jt - 1,5jt",Kos,1 km - 2 km,Wiraswata,PNS,7jt - 9jt,6,21.8
+Sains Data,3.35,Perempuan,154.0,40.0,SMA,3.0,Tidak,Tidak bekerja,Paket Data Seluler,Lainnya,500k - 1jt,Rumah mengontrak bersama-sama,< 1 km,Petani/ Nelayan,PNS,1jt - 3jt,6,16.87
+Sains Data,3.06,Perempuan,157.0,45.0,SMA,10.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,"1jt - 1,5jt",Tinggal besama orangtua,> 5 km,Karyawan Swasta,Ibu Rumah Tangga,3jt - 5jt,4,18.26
+Sains Data,2.78,Laki-laki,115.0,56.0,SMA,4.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Kos,3 km - 4 km,Karyawan Swasta,Ibu Rumah Tangga,3jt - 5jt,4,42.34
+Rekayasa Tata Kelola Air Terpadu,3.18,Perempuan,153.0,44.0,SMA,35.0,Ya,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Rumah mengontrak bersama-sama,2 km - 3 km,Petani/ Nelayan,Petani/ Nelayan,< 1jt,6,18.8
+Sains Data,3.15,Perempuan,155.0,50.0,SMA,30.0,Ya,Tidak bekerja,Fasilitas Kampus,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,> 5 km,Petani/ Nelayan,Ibu Rumah Tangga,< 1jt,4,20.81
+Sains Data,3.43,Laki-laki,161.0,62.0,SMA,9.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,3 km - 4 km,PNS,Ibu Rumah Tangga,5jt - 7jt,6,23.92
+Sains Data,3.07,Laki-laki,168.0,68.0,SMA,40.0,Tidak,Paruh Waktu,Fasilitas Kampus,Tidak Aktif,500k - 1jt,Rumah mengontrak bersama-sama,2 km - 3 km,Lainnya,Lainnya,3jt - 5jt,9,24.09
+Sains Data,2.89,Laki-laki,161.0,54.0,SMA,5.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,"1jt - 1,5jt",Kos,1 km - 2 km,Karyawan Swasta,Lainnya,1jt - 3jt,6,20.83
+Sains Data,3.26,Perempuan,150.0,58.0,SMA,8.0,Ya,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,1 km - 2 km,Petani/ Nelayan,Lainnya,1jt - 3jt,4,25.78
+Sains Data,4.0,Laki-laki,166.0,56.0,SMK,10.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Tinggal besama orangtua,> 5 km,Pensiunan,PNS,5jt - 7jt,5,20.32
+Sains Data,4.0,Perempuan,155.0,40.0,SMA,3.0,Tidak,Tidak bekerja,Fasilitas Kampus,Tidak Aktif,500k - 1jt,Kos,< 1 km,Karyawan Swasta,Ibu Rumah Tangga,1jt - 3jt,6,16.65
+Sains Data,2.85,Perempuan,165.0,59.0,SMA,24.0,Tidak,Paruh Waktu,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Tinggal besama orangtua,> 5 km,Petani/ Nelayan,Petani/ Nelayan,1jt - 3jt,4,21.67
+Sains Data,3.0,Perempuan,150.0,41.0,SMA,60.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Tinggal besama orangtua,> 5 km,Wiraswata,Ibu Rumah Tangga,7jt - 9jt,4,18.22
+Sains Data,3.0,Laki-laki,167.0,59.0,SMA,16.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Lainnya,"1jt - 1,5jt",Tinggal besama orangtua,> 5 km,Wiraswata,Ibu Rumah Tangga,7jt - 9jt,3,21.16
+Sains Data,3.4,Perempuan,152.0,51.0,SMA,5.0,Ya,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Asrama,< 1 km,Petani/ Nelayan,Petani/ Nelayan,1jt - 3jt,6,22.07
+Sains Data,3.4,Laki-laki,163.0,55.0,SMA,49.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Tinggal besama orangtua,> 5 km,PNS,Ibu Rumah Tangga,> 9jt,4,20.7
+Sains Data,3.4,Perempuan,161.0,68.0,SMA,2.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,3 km - 4 km,Lainnya,Ibu Rumah Tangga,< 1jt,3,26.23
+Sains Data,3.4,Perempuan,150.0,55.0,SMA,15.0,Ya,Tidak bekerja,Fasilitas Kampus,Lainnya,500k - 1jt,Kos,1 km - 2 km,Petani/ Nelayan,Petani/ Nelayan,< 1jt,3,24.44
+Sains Data,3.4,Perempuan,161.0,40.0,SMA,20.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Kos,1 km - 2 km,Lainnya,Lainnya,1jt - 3jt,5,15.43
+Sains Data,3.4,Laki-laki,170.0,68.0,SMA,120.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Kos,< 1 km,PNS,Ibu Rumah Tangga,3jt - 5jt,7,23.53
+Sains Data,3.03,Laki-laki,161.0,54.0,SMA,6.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif kegiatan akademik,500k - 1jt,Tinggal besama orangtua,> 5 km,Lainnya,Karyawan Swasta,3jt - 5jt,3,20.83
+Sains Data,3.49,Perempuan,157.0,85.0,SMA,15.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Kos,1 km - 2 km,Wiraswata,Ibu Rumah Tangga,1jt - 3jt,5,34.48
+Teknik Informatika,3.38,Laki-laki,170.0,73.0,SMK,5.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,< 1 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,4,25.26
+Sains Data,3.89,Laki-laki,175.0,70.0,SMA,9.0,Tidak,Paruh Waktu,Paket Data Seluler,Tidak Aktif,"1jt - 1,5jt",Kos,> 5 km,Wiraswata,Ibu Rumah Tangga,1jt - 3jt,4,22.86
+Sains Data,3.68,Laki-laki,168.0,59.0,SMA,2.0,Ya,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Rumah mengontrak bersama-sama,2 km - 3 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,4,20.9
+Sains Data,3.4,Laki-laki,161.0,54.0,SMA,23.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Kos,1 km - 2 km,Wiraswata,Ibu Rumah Tangga,1jt - 3jt,5,20.83
+Sains Data,3.4,Laki-laki,175.0,50.0,SMA,20.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Tinggal besama orangtua,> 5 km,Karyawan Swasta,Ibu Rumah Tangga,3jt - 5jt,5,16.33
+Sains Data,3.4,Laki-laki,165.0,51.0,SMA,15.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,"1,5jt - 2jt",Kos,< 1 km,Pensiunan,Ibu Rumah Tangga,1jt - 3jt,5,18.73
+Sains Data,3.4,Perempuan,150.0,43.0,SMA,25.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Tinggal besama orangtua,1 km - 2 km,PNS,Ibu Rumah Tangga,> 9jt,5,19.11
+Sains Data,3.4,Perempuan,150.0,34.0,SMA,2.0,Tidak,Tidak bekerja,Lainnya,Tidak Aktif,500k - 1jt,Kos,> 5 km,Petani/ Nelayan,Ibu Rumah Tangga,1jt - 3jt,5,15.11
+Sains Data,3.4,Perempuan,171.0,52.0,SMA,72.0,Tidak,Tidak bekerja,Fasilitas Kampus,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Kos,> 5 km,PNS,PNS,3jt - 5jt,4,17.78
+Sains Data,3.4,Perempuan,155.0,40.0,SMA,9.0,Ya,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Tinggal besama orangtua,> 5 km,Lainnya,Ibu Rumah Tangga,< 1jt,5,16.65
+Sains Data,3.4,Perempuan,161.0,54.0,SMA,9.0,Ya,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Tinggal besama orangtua,> 5 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,4,20.83
+Sains Data,3.4,Perempuan,168.0,54.0,SMA,25.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Tinggal besama orangtua,> 5 km,Lainnya,Lainnya,1jt - 3jt,4,19.13
+Sains Data,3.4,Laki-laki,161.0,54.0,SMK,4.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Kos,< 1 km,Lainnya,Karyawan Swasta,7jt - 9jt,7,20.83
+Sains Data,3.4,Perempuan,157.0,45.0,SMK,20.0,Ya,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Tinggal besama orangtua,> 5 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,6,18.26
+Sains Data,0.0,Laki-laki,161.0,54.0,SMA,20.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Tinggal besama orangtua,> 5 km,PNS,Lainnya,5jt - 7jt,4,20.83
+Rekayasa Instrumentasi Dan Automasi,3.64,Perempuan,155.0,44.0,SMA,10.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Kos,1 km - 2 km,Lainnya,Ibu Rumah Tangga,< 1jt,2,18.31
+Sains Data,3.78,Laki-laki,164.0,50.0,SMA,14.0,Ya,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,1 km - 2 km,Lainnya,Wiraswata,1jt - 3jt,3,18.59
+Sains Data,3.03,Laki-laki,161.0,87.0,SMA,4.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,3 km - 4 km,Pensiunan,Ibu Rumah Tangga,< 1jt,5,33.56
+Sains Data,3.47,Laki-laki,175.0,58.0,SMA,3.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,2 km - 3 km,Wiraswata,Wiraswata,1jt - 3jt,4,18.94
+Sains Data,3.4,Laki-laki,179.0,89.0,SMA,5.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,"1jt - 1,5jt",Kos,1 km - 2 km,Lainnya,Lainnya,1jt - 3jt,3,27.78
+Sains Data,3.37,Laki-laki,163.0,47.0,SMK,0.5,Ya,Tidak bekerja,Fasilitas Kampus,Lainnya,500k - 1jt,Kos,2 km - 3 km,Wiraswata,Ibu Rumah Tangga,1jt - 3jt,8,17.69
+Sains Data,3.4,Laki-laki,161.0,70.0,SMA,7.0,Tidak,Paruh Waktu,Fasilitas Kampus,Tidak Aktif,500k - 1jt,Tinggal besama orangtua,> 5 km,PNS,Ibu Rumah Tangga,1jt - 3jt,6,27.01
+Sains Data,3.4,Laki-laki,161.0,60.0,SMK,4.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,"1,5jt - 2jt",Kos,1 km - 2 km,Karyawan Swasta,Ibu Rumah Tangga,> 9jt,4,23.15
+Sains Data,3.2,Perempuan,164.0,54.0,SMA,1.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Tinggal besama orangtua,3 km - 4 km,PNS,Pensiunan,7jt - 9jt,6,20.08
+Sains Data,3.4,Perempuan,158.0,55.5,SMA,15.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Asrama,< 1 km,PNS,Ibu Rumah Tangga,3jt - 5jt,5,22.23
+Sains Data,3.51,Laki-laki,173.0,48.0,SMA,3.0,Tidak,Tidak bekerja,Paket Data Seluler,Lainnya,500k - 1jt,Rumah mengontrak bersama-sama,> 5 km,PNS,PNS,5jt - 7jt,4,16.04
+Sains Atmosfer Dan Keplanetan,3.2,Perempuan,143.0,36.0,SMA,5.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,< 1 km,Wiraswata,Ibu Rumah Tangga,< 1jt,5,17.6
+Teknik Biosistem,2.8,Perempuan,153.0,45.0,SMA,3.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Asrama,< 1 km,Lainnya,Pensiunan,< 1jt,5,19.22
+Teknik Pertambangan,3.5,Laki-laki,170.0,60.0,SMK,3.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Kos,1 km - 2 km,Wiraswata,Ibu Rumah Tangga,3jt - 5jt,7,20.76
+Teknik Geofisika,2.75,Perempuan,156.0,54.0,SMA,5.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif kegiatan akademik,"1,5jt - 2jt",Rumah mengontrak bersama-sama,< 1 km,Wiraswata,Ibu Rumah Tangga,5jt - 7jt,6,22.19
+Teknik Biomedis,3.0,Perempuan,156.0,54.0,SMA,4.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,> 2jt,Rumah mengontrak bersama-sama,< 1 km,Lainnya,Ibu Rumah Tangga,5jt - 7jt,5,22.19
+Teknik Telekomunikasi,3.28,Perempuan,160.0,43.0,SMA,48.0,Ya,Tidak bekerja,Lainnya,Lainnya,500k - 1jt,Kos,3 km - 4 km,Lainnya,Ibu Rumah Tangga,< 1jt,3,16.8
+Teknik Elektro,3.03,Laki-laki,160.0,60.0,SMK,7.0,Ya,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,< 1 km,Lainnya,Lainnya,5jt - 7jt,4,23.44
+Teknik Elektro,3.39,Laki-laki,174.0,72.0,SMA,8.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Rumah mengontrak bersama-sama,> 5 km,Lainnya,Lainnya,1jt - 3jt,6,23.78
+Arsitektur Lanskap,3.49,Perempuan,145.0,33.0,SMA,60.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,> 5 km,Wiraswata,Ibu Rumah Tangga,1jt - 3jt,5,15.7
+Sains Aktuaria,3.0,Perempuan,161.0,54.0,SMA,5.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Rumah mengontrak bersama-sama,3 km - 4 km,Karyawan Swasta,Ibu Rumah Tangga,3jt - 5jt,5,20.83
+Sains Data,3.31,Perempuan,160.0,50.0,SMA,20.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Lainnya,500k - 1jt,Kos,1 km - 2 km,Wiraswata,Wiraswata,5jt - 7jt,7,19.53
+Sains Aktuaria,3.4,Perempuan,155.0,40.0,SMA,3.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Kos,< 1 km,Karyawan Swasta,Lainnya,3jt - 5jt,5,16.65
+Sains Data,3.14,Laki-laki,173.0,52.0,SMA,17.0,Tidak,Paruh Waktu,Wi-Fi pribadi,Lainnya,500k - 1jt,Rumah mengontrak bersama-sama,< 1 km,Petani/ Nelayan,Ibu Rumah Tangga,< 1jt,5,17.37
+Sains Aktuaria,3.4,Laki-laki,160.0,48.0,SMA,18.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Kos,1 km - 2 km,Lainnya,Petani/ Nelayan,1jt - 3jt,2,18.75
+Rekayasa Instrumentasi Dan Automasi,3.4,Perempuan,161.0,54.0,SMA,5.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Asrama,< 1 km,PNS,Ibu Rumah Tangga,3jt - 5jt,6,20.83
+Sains Data,3.22,Perempuan,157.0,45.0,SMA,15.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,2 km - 3 km,Pensiunan,Ibu Rumah Tangga,1jt - 3jt,4,18.26
+Rekayasa Kehutanan,3.22,Laki-laki,164.0,67.0,SMA,2.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Rumah mengontrak bersama-sama,> 5 km,Wiraswata,Ibu Rumah Tangga,3jt - 5jt,4,24.91
+Rekayasa Keolahragaan,1.4,Laki-laki,155.0,55.0,SMA,1.0,Ya,Tidak bekerja,Wi-Fi pribadi,Lainnya,500k - 1jt,Kos,2 km - 3 km,Wiraswata,Ibu Rumah Tangga,< 1jt,4,22.89
+Arsitektur Lanskap,3.5,Perempuan,160.0,40.0,SMA,60.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Rumah mengontrak bersama-sama,> 5 km,Wiraswata,Ibu Rumah Tangga,3jt - 5jt,4,15.62
+Teknik Mesin,3.4,Laki-laki,161.0,70.0,SMA,4.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Lainnya,500k - 1jt,Kos,1 km - 2 km,Karyawan Swasta,Ibu Rumah Tangga,3jt - 5jt,4,27.01
+Sains Aktuaria,3.79,Perempuan,153.0,45.0,SMA,1.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Kos,< 1 km,Petani/ Nelayan,Ibu Rumah Tangga,3jt - 5jt,5,19.22
+Arsitektur Lanskap,3.62,Perempuan,162.0,52.0,SMA,5.0,Ya,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Rumah mengontrak Pribadi,> 5 km,Wiraswata,Ibu Rumah Tangga,< 1jt,5,19.81
+Sains Data,2.61,Laki-laki,161.0,95.0,SMA,10.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,1 km - 2 km,PNS,PNS,3jt - 5jt,6,36.65
+Sains Data,3.29,Laki-laki,172.0,53.0,SMA,6.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Rumah mengontrak Pribadi,3 km - 4 km,PNS,Ibu Rumah Tangga,1jt - 3jt,5,17.92
+Sains Data,3.5,Laki-laki,170.0,60.0,SMA,34.0,Ya,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,1 km - 2 km,Petani/ Nelayan,Ibu Rumah Tangga,1jt - 3jt,5,20.76
+Teknik Mesin,3.33,Laki-laki,169.0,55.0,SMA,0.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Tinggal besama orangtua,3 km - 4 km,Pensiunan,Ibu Rumah Tangga,3jt - 5jt,5,19.26
+Sains Data,3.79,Perempuan,155.0,54.0,SMA,14.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Kos,< 1 km,Wiraswata,Ibu Rumah Tangga,1jt - 3jt,5,22.48
+Sains Data,3.36,Perempuan,145.0,43.0,SMA,3.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Rumah mengontrak bersama-sama,< 1 km,Petani/ Nelayan,Ibu Rumah Tangga,1jt - 3jt,6,20.45
+Sains Data,3.35,Laki-laki,171.0,69.0,SMA,14.0,Tidak,Tidak bekerja,Paket Data Seluler,Lainnya,500k - 1jt,Tinggal besama orangtua,> 5 km,Wiraswata,Ibu Rumah Tangga,3jt - 5jt,6,23.6
+Teknik Perkeretaapian,3.56,Laki-laki,163.0,47.0,SMA,10.0,Ya,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Kos,1 km - 2 km,Petani/ Nelayan,Petani/ Nelayan,1jt - 3jt,4,17.69
+Sains Data,3.79,Perempuan,155.0,50.0,SMA,12.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,< 1 km,Wiraswata,Ibu Rumah Tangga,3jt - 5jt,5,20.81
+Sains Data,3.38,Laki-laki,165.0,57.0,SMA,40.0,Tidak,Tidak bekerja,Paket Data Seluler,Lainnya,500k - 1jt,Rumah mengontrak bersama-sama,> 5 km,Lainnya,Petani/ Nelayan,1jt - 3jt,4,20.94
+Teknik Geofisika,3.5,Laki-laki,176.0,96.0,SMA,10.0,Tidak,Tidak bekerja,Fasilitas Kampus,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,1 km - 2 km,Petani/ Nelayan,Petani/ Nelayan,1jt - 3jt,5,30.99
+Arsitektur,3.04,Perempuan,157.0,70.0,SMA,21.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,"1jt - 1,5jt",Kos,> 5 km,Wiraswata,Ibu Rumah Tangga,1jt - 3jt,3,28.4
+Sains Data,4.0,Perempuan,150.0,60.0,SMA,3.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Kos,1 km - 2 km,Lainnya,Lainnya,1jt - 3jt,3,26.67
+Sains Data,3.2,Laki-laki,176.0,62.0,SMA,4.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Lainnya,"1jt - 1,5jt",Kos,2 km - 3 km,Lainnya,Ibu Rumah Tangga,3jt - 5jt,5,20.02
+Sains Data,3.58,Laki-laki,165.0,65.0,SMA,3.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Kos,2 km - 3 km,Lainnya,Ibu Rumah Tangga,5jt - 7jt,5,23.88
+Farmasi,3.4,Laki-laki,174.0,77.0,SMA,14.0,Ya,Paruh Waktu,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Tinggal besama orangtua,> 5 km,PNS,PNS,5jt - 7jt,5,25.43
+Sains Data,3.83,Laki-laki,176.0,65.0,SMA,15.0,Tidak,Paruh Waktu,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Tinggal besama orangtua,> 5 km,Wiraswata,Lainnya,5jt - 7jt,4,20.98
+Sains Data,3.81,Laki-laki,177.0,96.0,SMA,12.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Tinggal besama orangtua,> 5 km,Wiraswata,PNS,5jt - 7jt,5,30.64
+Sains Data,2.95,Perempuan,161.0,54.0,SMA,10.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Tinggal besama orangtua,> 5 km,Wiraswata,Ibu Rumah Tangga,> 9jt,6,20.83
+Sains Data,3.81,Perempuan,152.0,43.0,SMA,9.0,Tidak,Tidak bekerja,Paket Data Seluler,Lainnya,"1jt - 1,5jt",Kos,< 1 km,Wiraswata,Ibu Rumah Tangga,1jt - 3jt,5,18.61
+Sains Atmosfer Dan Keplanetan,2.78,Perempuan,168.0,53.0,SMA,9.0,Tidak,Tidak bekerja,Lainnya,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,1 km - 2 km,Karyawan Swasta,Karyawan Swasta,< 1jt,6,18.78
+Arsitektur,3.95,Perempuan,156.0,42.0,SMA,8.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,> 2jt,Kos,1 km - 2 km,Karyawan Swasta,Ibu Rumah Tangga,3jt - 5jt,4,17.26
+Sains Data,3.07,Laki-laki,165.0,58.0,SMA,5.0,Ya,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,1 km - 2 km,Petani/ Nelayan,Ibu Rumah Tangga,1jt - 3jt,4,21.3
+Sains Data,3.38,Perempuan,151.0,47.0,SMA,2.0,Tidak,Tidak bekerja,Fasilitas Kampus,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Tinggal besama orangtua,> 5 km,Pensiunan,Ibu Rumah Tangga,1jt - 3jt,5,20.61
+Sains Data,2.7,Laki-laki,161.0,54.0,SMA,7.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Tinggal besama orangtua,> 5 km,Karyawan Swasta,Ibu Rumah Tangga,> 9jt,4,20.83
+Teknologi Pangan,3.51,Perempuan,161.0,54.0,SMA,56.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Kos,< 1 km,Wiraswata,Ibu Rumah Tangga,5jt - 7jt,6,20.83
+Teknik Pertambangan,3.0,Perempuan,150.0,50.0,SMA,14.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,1 km - 2 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,5,22.22
+Sains Lingkungan Kelautan,3.17,Perempuan,158.0,54.0,SMA,50.0,Ya,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Rumah mengontrak bersama-sama,< 1 km,Petani/ Nelayan,Lainnya,< 1jt,4,21.63
+Teknologi Pangan,3.4,Perempuan,161.0,54.0,SMK,9.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Rumah mengontrak bersama-sama,1 km - 2 km,Petani/ Nelayan,Ibu Rumah Tangga,< 1jt,4,20.83
+Sains Data,3.47,Perempuan,168.0,68.0,SMA,2.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,> 5 km,Wiraswata,Wiraswata,1jt - 3jt,4,24.09
+Sains Data,3.31,Perempuan,159.0,56.0,SMA,8.0,Ya,Tidak bekerja,Paket Data Seluler,Lainnya,500k - 1jt,Tinggal besama orangtua,> 5 km,Lainnya,Ibu Rumah Tangga,< 1jt,3,22.15
+Teknik Industri,3.4,Perempuan,150.0,45.0,SMA,48.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Rumah mengontrak bersama-sama,2 km - 3 km,Petani/ Nelayan,Petani/ Nelayan,< 1jt,8,20.0
+Teknologi Pangan,3.81,Perempuan,163.0,80.0,SMA,8.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Kos,> 5 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,3,30.11
+Teknologi Pangan,3.4,Perempuan,150.0,50.0,SMA,90.0,Tidak,Tidak bekerja,Fasilitas Kampus,Lainnya,500k - 1jt,Kos,1 km - 2 km,Lainnya,Ibu Rumah Tangga,< 1jt,5,22.22
+Teknik Pertambangan,3.2,Perempuan,165.0,46.0,SMA,9.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,> 2jt,Kos,1 km - 2 km,PNS,PNS,> 9jt,5,16.9
+Teknik Geologi,3.6,Perempuan,156.0,51.0,SMA,7.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,"1,5jt - 2jt",Kos,3 km - 4 km,Wiraswata,PNS,> 9jt,6,20.96
+Sains Data,3.54,Perempuan,161.0,54.0,SMA,5.0,Tidak,Tidak bekerja,Lainnya,Tidak Aktif,"1jt - 1,5jt",Kos,1 km - 2 km,PNS,PNS,3jt - 5jt,6,20.83
+Sains Data,3.5,Perempuan,157.0,52.0,SMA,10.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Tinggal besama orangtua,> 5 km,Lainnya,Pensiunan,< 1jt,4,21.1
+Sains Data,3.1,Laki-laki,159.0,90.0,SMK,8.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif kegiatan akademik,500k - 1jt,Tinggal besama orangtua,> 5 km,Wiraswata,Pensiunan,1jt - 3jt,4,35.6
+Perencanaan Wilayah Dan Kota,3.0,Perempuan,155.0,55.0,SMA,14.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif kegiatan akademik,"1,5jt - 2jt",Kos,1 km - 2 km,PNS,Ibu Rumah Tangga,7jt - 9jt,6,22.89
+Kimia,2.8,Laki-laki,169.0,105.0,SMK,37.0,Tidak,Tidak bekerja,Paket Data Seluler,Lainnya,500k - 1jt,Tinggal besama orangtua,3 km - 4 km,Petani/ Nelayan,Ibu Rumah Tangga,< 1jt,5,36.76
+Sains Data,3.4,Perempuan,161.0,54.0,SMA,9.0,Tidak,Tidak bekerja,Lainnya,Lainnya,500k - 1jt,Kos,1 km - 2 km,PNS,PNS,3jt - 5jt,5,20.83
+Sains Data,3.75,Perempuan,155.0,52.0,SMA,2.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,"1,5jt - 2jt",Kos,< 1 km,PNS,PNS,1jt - 3jt,5,21.64
+Kimia,3.94,Perempuan,150.0,50.0,SMA,8.0,Ya,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Kos,1 km - 2 km,Petani/ Nelayan,Ibu Rumah Tangga,1jt - 3jt,4,22.22
+Sains Data,3.4,Perempuan,155.0,43.0,SMA,3.0,Tidak,Tidak bekerja,Fasilitas Kampus,Tidak Aktif,500k - 1jt,Tinggal besama orangtua,> 5 km,Wiraswata,Ibu Rumah Tangga,1jt - 3jt,5,17.9
+Kimia,3.4,Perempuan,162.0,60.0,SMA,9.0,Tidak,Tidak bekerja,Fasilitas Kampus,Lainnya,"1jt - 1,5jt",Kos,1 km - 2 km,Karyawan Swasta,PNS,3jt - 5jt,3,22.86
+Rekayasa Minyak Dan Gas,3.4,Laki-laki,165.0,45.0,SMK,3.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif kegiatan akademik,500k - 1jt,Tinggal besama orangtua,> 5 km,Lainnya,Ibu Rumah Tangga,3jt - 5jt,5,16.53
+Sains Data,3.25,Perempuan,154.0,58.0,SMA,6.0,Ya,Tidak bekerja,Wi-Fi pribadi,Aktif kegiatan akademik,500k - 1jt,Kos,1 km - 2 km,Petani/ Nelayan,Ibu Rumah Tangga,< 1jt,4,24.46
+Teknik Pertambangan,3.4,Laki-laki,161.0,52.0,SMA,35.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Kos,> 5 km,Wiraswata,Ibu Rumah Tangga,1jt - 3jt,4,20.06
+Sains Data,3.24,Perempuan,152.0,45.0,SMA,7.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,"1,5jt - 2jt",Kos,2 km - 3 km,Karyawan Swasta,PNS,5jt - 7jt,4,19.48
+Sains Data,3.4,Perempuan,161.0,52.0,SMA,0.0,Tidak,Tidak bekerja,Paket Data Seluler,Lainnya,500k - 1jt,Rumah mengontrak bersama-sama,> 5 km,Petani/ Nelayan,Ibu Rumah Tangga,1jt - 3jt,4,20.06
+Teknik Industri,3.3,Laki-laki,170.0,60.0,SMA,2.0,Tidak,Tidak bekerja,Paket Data Seluler,Lainnya,500k - 1jt,Rumah mengontrak Pribadi,> 5 km,Karyawan Swasta,Ibu Rumah Tangga,3jt - 5jt,5,20.76
+Sains Data,3.13,Perempuan,161.0,54.0,SMA,3.0,Ya,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,< 1 km,Petani/ Nelayan,Ibu Rumah Tangga,< 1jt,4,20.83
+Sains Aktuaria,3.02,Perempuan,153.0,53.0,SMA,10.0,Tidak,Tidak bekerja,Fasilitas Kampus,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Kos,1 km - 2 km,Wiraswata,Wiraswata,1jt - 3jt,6,22.64
+Pariwisata,3.4,Laki-laki,161.0,54.0,SMA,2.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Lainnya,500k - 1jt,Tinggal besama orangtua,> 5 km,PNS,Ibu Rumah Tangga,3jt - 5jt,4,20.83
+Teknik Geofisika,3.28,Perempuan,152.0,49.0,SMA,5.0,Tidak,Penuh Waktu,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Rumah mengontrak bersama-sama,2 km - 3 km,PNS,Petani/ Nelayan,1jt - 3jt,7,21.21
+Teknik Geomatika,3.0,Perempuan,150.0,49.0,SMK,40.0,Ya,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,1 km - 2 km,Petani/ Nelayan,Petani/ Nelayan,< 1jt,6,21.78
+Sains Atmosfer Dan Keplanetan,3.3,Perempuan,167.0,65.0,SMA,4.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,1 km - 2 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,8,23.31
+Sains Data,3.44,Perempuan,150.0,40.0,SMA,7.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,1 km - 2 km,PNS,Ibu Rumah Tangga,3jt - 5jt,4,17.78
+Sains Atmosfer Dan Keplanetan,2.92,Perempuan,160.0,55.0,SMA,15.0,Ya,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,1 km - 2 km,Karyawan Swasta,Lainnya,< 1jt,5,21.48
+Sains Data,3.2,Perempuan,156.0,40.0,SMA,8.0,Tidak,Tidak bekerja,Fasilitas Kampus,Lainnya,500k - 1jt,Kos,1 km - 2 km,Petani/ Nelayan,Ibu Rumah Tangga,< 1jt,3,16.44
+Sains Data,3.78,Laki-laki,165.0,45.0,SMA,7.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif kegiatan akademik,500k - 1jt,Rumah mengontrak Pribadi,> 5 km,PNS,PNS,3jt - 5jt,5,16.53
+Sains Data,2.76,Perempuan,155.0,48.0,SMA,1.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,2 km - 3 km,Lainnya,Karyawan Swasta,3jt - 5jt,3,19.98
+Teknik Pertambangan,3.32,Perempuan,160.0,56.0,SMA,20.0,Ya,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Rumah mengontrak bersama-sama,> 5 km,PNS,Ibu Rumah Tangga,1jt - 3jt,5,21.87
+Sains Data,2.87,Perempuan,155.0,42.0,SMA,4.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif kegiatan akademik,"1jt - 1,5jt",Kos,< 1 km,Lainnya,Ibu Rumah Tangga,< 1jt,2,17.48
+Sains Atmosfer Dan Keplanetan,3.34,Perempuan,159.0,49.0,SMA,2.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,1 km - 2 km,Lainnya,Ibu Rumah Tangga,< 1jt,3,19.38
+Sains Data,3.4,Perempuan,157.0,55.0,SMA,14.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Kos,2 km - 3 km,PNS,Ibu Rumah Tangga,5jt - 7jt,4,22.31
+Fisika,2.67,Perempuan,150.0,40.0,SMA,5.0,Ya,Tidak bekerja,Fasilitas Kampus,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,2 km - 3 km,Petani/ Nelayan,Lainnya,< 1jt,4,17.78
+Rekayasa Instrumentasi Dan Automasi,3.4,Laki-laki,163.0,58.0,SMA,17.0,Tidak,Tidak bekerja,Paket Data Seluler,Lainnya,500k - 1jt,Kos,1 km - 2 km,PNS,Ibu Rumah Tangga,5jt - 7jt,5,21.83
+Sains Data,3.5,Perempuan,160.0,47.0,SMA,1.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,"1jt - 1,5jt",Kos,< 1 km,Wiraswata,Ibu Rumah Tangga,3jt - 5jt,4,18.36
+Teknik Informatika,3.2,Perempuan,158.0,51.0,SMA,12.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Kos,> 5 km,Karyawan Swasta,Ibu Rumah Tangga,1jt - 3jt,5,20.43
+Arsitektur,3.5,Laki-laki,165.0,50.0,SMA,5.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Tinggal besama orangtua,> 5 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,3,18.37
+Sains Data,3.42,Perempuan,155.0,48.0,SMA,1.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,"1,5jt - 2jt",Kos,< 1 km,Lainnya,Ibu Rumah Tangga,7jt - 9jt,4,19.98
+Sains Lingkungan Kelautan,3.5,Perempuan,155.0,52.0,SMA,7.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif kegiatan akademik,500k - 1jt,Kos,1 km - 2 km,Lainnya,Petani/ Nelayan,< 1jt,4,21.64
+Teknik Kelautan,3.5,Laki-laki,175.0,60.0,SMA,6.0,Ya,Tidak bekerja,Fasilitas Kampus,Lainnya,500k - 1jt,Asrama,< 1 km,Petani/ Nelayan,Petani/ Nelayan,< 1jt,7,19.59
+Teknik Sistem Energi,3.4,Laki-laki,162.0,49.0,SMA,12.0,Tidak,Tidak bekerja,Paket Data Seluler,Lainnya,500k - 1jt,Asrama,< 1 km,Petani/ Nelayan,PNS,< 1jt,2,18.67
+Teknik Informatika,3.4,Perempuan,150.0,42.0,SMA,22.0,Ya,Tidak bekerja,Wi-Fi pribadi,Lainnya,500k - 1jt,Kos,< 1 km,Petani/ Nelayan,Petani/ Nelayan,1jt - 3jt,6,18.67
+Sains Data,3.6,Laki-laki,173.0,69.0,SMA,3.0,Tidak,Tidak bekerja,Fasilitas Kampus,Tidak Aktif,"1jt - 1,5jt",Kos,1 km - 2 km,Lainnya,PNS,7jt - 9jt,4,23.05
+Sains Data,3.4,Perempuan,155.0,58.0,SMA,3.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Tinggal besama orangtua,3 km - 4 km,Wiraswata,PNS,3jt - 5jt,4,24.14
+Fisika,2.74,Perempuan,161.0,54.0,SMA,6.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Tinggal besama orangtua,3 km - 4 km,Karyawan Swasta,Ibu Rumah Tangga,1jt - 3jt,4,20.83
+Teknik Informatika,3.4,Perempuan,155.0,40.0,SMA,25.0,Ya,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Rumah mengontrak bersama-sama,2 km - 3 km,Lainnya,Wiraswata,1jt - 3jt,4,16.65
+Teknik Pertambangan,3.5,Laki-laki,173.0,76.0,SMA,8.0,Tidak,Tidak bekerja,Paket Data Seluler,Lainnya,"1jt - 1,5jt",Kos,> 5 km,PNS,PNS,7jt - 9jt,6,25.39
+Teknik Industri,3.14,Perempuan,148.0,45.0,SMA,60.0,Ya,Tidak bekerja,Fasilitas Kampus,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Kos,1 km - 2 km,Wiraswata,Ibu Rumah Tangga,1jt - 3jt,5,20.54
+Kimia,2.8,Laki-laki,169.0,105.0,SMK,68.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Tinggal besama orangtua,> 5 km,Petani/ Nelayan,Ibu Rumah Tangga,< 1jt,5,36.76
+Sains Data,3.24,Perempuan,165.0,65.0,SMA,0.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,> 5 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,5,23.88
+Sains Data,3.4,Laki-laki,161.0,54.0,SMA,9.0,Ya,Tidak bekerja,Lainnya,Lainnya,500k - 1jt,Kos,< 1 km,Wiraswata,Wiraswata,< 1jt,4,20.83
+Rekayasa Instrumentasi Dan Automasi,3.4,Laki-laki,170.0,71.0,SMA,17.0,Tidak,Tidak bekerja,Fasilitas Kampus,Tidak Aktif,500k - 1jt,Kos,2 km - 3 km,Lainnya,PNS,3jt - 5jt,4,24.57
+Sains Data,3.4,Laki-laki,163.0,54.0,SMA,15.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Asrama,< 1 km,Wiraswata,PNS,1jt - 3jt,5,20.32
+Fisika,2.6,Perempuan,161.0,54.0,SMA,14.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Lainnya,500k - 1jt,Kos,1 km - 2 km,Wiraswata,Wiraswata,< 1jt,3,20.83
+Teknik Geofisika,4.0,Laki-laki,170.0,70.0,SMA,24.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Kos,1 km - 2 km,PNS,Lainnya,5jt - 7jt,4,24.22
+Sains Data,3.15,Laki-laki,171.0,56.0,SMA,23.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,"1jt - 1,5jt",Kos,1 km - 2 km,Wiraswata,Ibu Rumah Tangga,< 1jt,5,19.15
+Sains Data,0.0,Laki-laki,161.0,54.0,SMA,20.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Tinggal besama orangtua,> 5 km,PNS,Lainnya,5jt - 7jt,4,20.83
+Sains Data,3.4,Laki-laki,170.0,60.0,SMK,4.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Lainnya,500k - 1jt,Kos,1 km - 2 km,Wiraswata,Ibu Rumah Tangga,1jt - 3jt,4,20.76
+Teknik Informatika,3.5,Perempuan,150.0,48.0,SMA,72.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,< 1 km,Petani/ Nelayan,Ibu Rumah Tangga,3jt - 5jt,5,21.33
+Rekayasa Kosmetik,3.35,Perempuan,158.0,45.0,SMA,50.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Rumah mengontrak bersama-sama,< 1 km,Lainnya,Petani/ Nelayan,< 1jt,8,18.03
+Sains Aktuaria,4.0,Perempuan,161.0,49.0,SMA,3.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif kegiatan akademik,"1jt - 1,5jt",Kos,1 km - 2 km,PNS,PNS,5jt - 7jt,5,18.9
+Sains Data,2.77,Perempuan,156.0,45.0,SMA,7.0,Tidak,Tidak bekerja,Paket Data Seluler,Lainnya,500k - 1jt,Rumah mengontrak Pribadi,> 5 km,Karyawan Swasta,Ibu Rumah Tangga,5jt - 7jt,4,18.49
+Teknik Informatika,3.5,Perempuan,150.0,48.0,SMA,72.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,< 1 km,Petani/ Nelayan,Petani/ Nelayan,3jt - 5jt,5,21.33
+Sains Data,3.68,Perempuan,155.0,45.0,SMA,48.0,Ya,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Rumah mengontrak bersama-sama,2 km - 3 km,Lainnya,Ibu Rumah Tangga,< 1jt,4,18.73
+Sains Data,3.2,Laki-laki,170.0,70.0,SMA,6.0,Tidak,Paruh Waktu,Paket Data Seluler,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Kos,1 km - 2 km,Pensiunan,Ibu Rumah Tangga,1jt - 3jt,5,24.22
+Sains Data,3.86,Perempuan,152.0,45.0,SMA,4.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Kos,1 km - 2 km,Wiraswata,Ibu Rumah Tangga,> 9jt,8,19.48
+Teknik Geofisika,3.4,Laki-laki,170.0,62.0,SMA,20.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Lainnya,"1jt - 1,5jt",Kos,< 1 km,PNS,PNS,> 9jt,5,21.45
+Rekayasa Kehutanan,3.0,Perempuan,147.0,49.0,SMK,4.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,2 km - 3 km,Petani/ Nelayan,Petani/ Nelayan,1jt - 3jt,7,22.68
+Teknik Informatika,3.39,Laki-laki,161.0,54.0,SMK,67.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Rumah mengontrak bersama-sama,> 5 km,Lainnya,Lainnya,1jt - 3jt,2,20.83
+Sains Data,3.17,Perempuan,157.0,62.0,SMK,5.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Tinggal besama orangtua,> 5 km,Karyawan Swasta,PNS,3jt - 5jt,5,25.15
+Sains Data,3.58,Perempuan,159.0,64.0,SMA,18.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif kegiatan akademik,"1jt - 1,5jt",Kos,1 km - 2 km,Petani/ Nelayan,Ibu Rumah Tangga,1jt - 3jt,4,25.32
+Sains Data,3.0,Perempuan,161.0,44.0,SMA,28.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,1 km - 2 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,4,16.97
+Sains Data,2.97,Laki-laki,180.0,65.0,SMA,20.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,"1,5jt - 2jt",Kos,2 km - 3 km,PNS,PNS,> 9jt,4,20.06
+Sains Data,3.01,Perempuan,160.0,58.0,SMA,6.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,"1jt - 1,5jt",Kos,> 5 km,Petani/ Nelayan,Ibu Rumah Tangga,1jt - 3jt,5,22.66
+Sains Data,3.19,Laki-laki,160.0,45.0,SMA,9.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,1 km - 2 km,Karyawan Swasta,PNS,3jt - 5jt,5,17.58
+Sains Data,2.5,Perempuan,159.0,50.0,SMA,10.0,Tidak,Paruh Waktu,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Tinggal besama orangtua,> 5 km,PNS,PNS,5jt - 7jt,3,19.78
+Sains Data,3.38,Perempuan,161.0,54.0,SMA,15.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Kos,< 1 km,Karyawan Swasta,Lainnya,3jt - 5jt,4,20.83
+Sains Data,3.5,Perempuan,160.0,50.0,SMA,15.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,"1,5jt - 2jt",Kos,1 km - 2 km,Petani/ Nelayan,Petani/ Nelayan,5jt - 7jt,3,19.53
+Teknik Informatika,3.84,Laki-laki,164.0,46.0,SMA,2.0,Ya,Tidak bekerja,Lainnya,Tidak Aktif,500k - 1jt,Kos,1 km - 2 km,Wiraswata,Ibu Rumah Tangga,1jt - 3jt,6,17.1
+Sains Data,3.68,Laki-laki,165.0,45.0,SMA,2.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif kegiatan akademik,"1jt - 1,5jt",Asrama,< 1 km,Lainnya,Ibu Rumah Tangga,< 1jt,5,16.53
+Teknik Geofisika,3.4,Laki-laki,170.0,62.0,SMA,10.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,"1jt - 1,5jt",Tinggal besama orangtua,3 km - 4 km,Karyawan Swasta,Karyawan Swasta,> 9jt,5,21.45
+Sains Data,3.49,Perempuan,159.0,51.0,SMA,5.0,Tidak,Tidak bekerja,Fasilitas Kampus,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,1 km - 2 km,Petani/ Nelayan,Ibu Rumah Tangga,1jt - 3jt,5,20.17
+Pariwisata,3.4,Laki-laki,160.0,75.0,SMA,1.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Asrama,< 1 km,Pensiunan,Ibu Rumah Tangga,1jt - 3jt,4,29.3
+Sains Data,3.0,Laki-laki,168.0,60.0,SMA,21.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Lainnya,500k - 1jt,Kos,2 km - 3 km,Karyawan Swasta,Wiraswata,3jt - 5jt,4,21.26
+Arsitektur,3.4,Perempuan,155.0,45.0,SMA,3.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Tinggal besama orangtua,> 5 km,Lainnya,Ibu Rumah Tangga,< 1jt,2,18.73
+Fisika,3.83,Laki-laki,160.0,45.0,SMA,30.0,Tidak,Paruh Waktu,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Rumah mengontrak bersama-sama,2 km - 3 km,PNS,Ibu Rumah Tangga,7jt - 9jt,7,17.58
+Sains Data,3.5,Perempuan,145.0,35.0,SMA,14.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Kos,1 km - 2 km,Wiraswata,Ibu Rumah Tangga,1jt - 3jt,5,16.65
+Sains Data,3.4,Laki-laki,161.0,47.0,SMA,12.0,Ya,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Kos,> 5 km,Wiraswata,Ibu Rumah Tangga,1jt - 3jt,4,18.13
+Sains Data,0.0,Laki-laki,171.0,49.0,SMK,24.0,Ya,Tidak bekerja,Paket Data Seluler,Aktif kegiatan akademik,500k - 1jt,Tinggal besama orangtua,> 5 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,4,16.76
+Sains Data,3.97,Laki-laki,168.0,75.0,SMA,125.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Tinggal besama orangtua,> 5 km,Wiraswata,Ibu Rumah Tangga,5jt - 7jt,4,26.57
+Teknik Perkeretaapian,3.4,Perempuan,161.0,54.0,SMA,2.0,Ya,Tidak bekerja,Paket Data Seluler,Lainnya,500k - 1jt,Tinggal besama orangtua,> 5 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,5,20.83
+Sains Data,3.7,Laki-laki,175.0,75.0,SMA,2.53,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif kegiatan akademik,500k - 1jt,Tinggal besama orangtua,> 5 km,Lainnya,Ibu Rumah Tangga,> 9jt,5,24.49
+Teknik Kimia,3.5,Laki-laki,165.0,54.0,SMA,1.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Tinggal besama orangtua,> 5 km,Wiraswata,Lainnya,3jt - 5jt,5,19.83
+Sains Data,3.4,Laki-laki,177.0,60.0,SMA,8.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,"1jt - 1,5jt",Kos,1 km - 2 km,Wiraswata,Lainnya,5jt - 7jt,3,19.15
+Sains Data,3.4,Laki-laki,161.0,54.0,SMK,3.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Kos,1 km - 2 km,Lainnya,Wiraswata,> 9jt,6,20.83
+Sains Aktuaria,3.43,Laki-laki,171.0,70.0,SMA,10.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Kos,1 km - 2 km,Karyawan Swasta,Ibu Rumah Tangga,> 9jt,5,23.94
+Rekayasa Instrumentasi Dan Automasi,3.4,Laki-laki,170.0,80.0,SMA,4.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif kegiatan akademik,500k - 1jt,Kos,2 km - 3 km,Karyawan Swasta,Ibu Rumah Tangga,1jt - 3jt,4,27.68
+Biologi,2.75,Perempuan,152.0,41.0,SMA,2.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Lainnya,500k - 1jt,Tinggal besama orangtua,3 km - 4 km,Wiraswata,Wiraswata,5jt - 7jt,4,17.75
+Arsitektur Lanskap,3.76,Laki-laki,161.0,62.0,SMA,1.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Kos,< 1 km,Karyawan Swasta,PNS,> 9jt,4,23.92
+Sains Atmosfer Dan Keplanetan,2.91,Perempuan,150.0,48.0,SMA,10.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,> 2jt,Kos,1 km - 2 km,PNS,Wiraswata,> 9jt,6,21.33
+Sains Aktuaria,3.4,Perempuan,161.0,54.0,SMA,126.0,Ya,Paruh Waktu,Fasilitas Kampus,Aktif kegiatan akademik,"1jt - 1,5jt",Asrama,1 km - 2 km,Lainnya,Ibu Rumah Tangga,< 1jt,3,20.83
+Sains Aktuaria,3.14,Laki-laki,180.0,54.0,SMA,0.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Kos,< 1 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,5,16.67
+Teknik Pertambangan,3.4,Laki-laki,172.0,55.0,SMA,16.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Tinggal besama orangtua,> 5 km,Lainnya,Ibu Rumah Tangga,> 9jt,7,18.59
+Teknik Biosistem,3.4,Perempuan,160.0,52.0,SMA,5.0,Tidak,Tidak bekerja,Paket Data Seluler,Lainnya,500k - 1jt,Kos,2 km - 3 km,Lainnya,Petani/ Nelayan,3jt - 5jt,7,20.31
+Teknik Geologi,3.48,Perempuan,170.0,62.0,SMA,30.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Tinggal besama orangtua,1 km - 2 km,Lainnya,Ibu Rumah Tangga,3jt - 5jt,5,21.45
+Sains Data,3.4,Perempuan,150.0,55.0,SMA,15.0,Ya,Tidak bekerja,Fasilitas Kampus,Lainnya,500k - 1jt,Kos,1 km - 2 km,Petani/ Nelayan,Petani/ Nelayan,< 1jt,3,24.44
+Perencanaan Wilayah Dan Kota,3.03,Perempuan,153.0,46.0,SMA,42.0,Ya,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Rumah mengontrak bersama-sama,2 km - 3 km,Petani/ Nelayan,Petani/ Nelayan,< 1jt,4,19.65
+Teknik Industri,3.91,Perempuan,159.0,48.0,SMA,78.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif kegiatan akademik,"1,5jt - 2jt",Kos,< 1 km,Karyawan Swasta,Ibu Rumah Tangga,> 9jt,5,18.99
+Farmasi,3.83,Perempuan,161.0,50.0,SMA,3.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif kegiatan akademik,"1,5jt - 2jt",Kos,> 5 km,Wiraswata,Ibu Rumah Tangga,5jt - 7jt,5,19.29
+Sains Atmosfer Dan Keplanetan,4.0,Laki-laki,170.0,64.0,SMA,5.0,Ya,Tidak bekerja,Fasilitas Kampus,Aktif kegiatan akademik,500k - 1jt,Asrama,< 1 km,Karyawan Swasta,Ibu Rumah Tangga,1jt - 3jt,7,22.15
+Sains Aktuaria,3.06,Laki-laki,174.0,79.0,SMA,24.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Kos,< 1 km,Pensiunan,Ibu Rumah Tangga,1jt - 3jt,4,26.09
+Kimia,3.4,Perempuan,161.0,54.0,SMK,9.0,Ya,Penuh Waktu,Lainnya,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,> 5 km,Lainnya,Lainnya,< 1jt,6,20.83
+Sains Aktuaria,3.89,Perempuan,150.0,52.0,SMA,20.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,"1,5jt - 2jt",Kos,< 1 km,Pensiunan,PNS,7jt - 9jt,6,23.11
+Sains Aktuaria,3.5,Perempuan,163.0,54.0,SMA,4.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Kos,< 1 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,4,20.32
+Sains Data,3.4,Laki-laki,166.0,45.0,SMK,10.0,Tidak,Tidak bekerja,Paket Data Seluler,Lainnya,500k - 1jt,Asrama,< 1 km,Wiraswata,Lainnya,1jt - 3jt,2,16.33
+Teknik Kimia,3.7,Perempuan,155.0,40.0,SMA,9.0,Ya,Tidak bekerja,Fasilitas Kampus,Aktif organisasi kemahasiswaan,500k - 1jt,Tinggal besama orangtua,> 5 km,Wiraswata,Ibu Rumah Tangga,1jt - 3jt,5,16.65
+Teknik,0.0,Perempuan,170.0,70.0,SMA,4.0,Ya,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Kos,1 km - 2 km,Petani/ Nelayan,Petani/ Nelayan,1jt - 3jt,8,24.22
+Sains Aktuaria,3.7,Laki-laki,168.0,61.0,SMA,7.0,Tidak,Tidak bekerja,Paket Data Seluler,Lainnya,500k - 1jt,Rumah mengontrak bersama-sama,2 km - 3 km,Lainnya,Lainnya,1jt - 3jt,6,21.61
+Sains Data,3.45,Laki-laki,161.0,54.0,SMA,9.0,Tidak,Tidak bekerja,Fasilitas Kampus,Aktif organisasi kemahasiswaan,500k - 1jt,Asrama,< 1 km,Wiraswata,Ibu Rumah Tangga,< 1jt,5,20.83
+Sains Data,2.83,Laki-laki,161.0,55.0,SMA,35.0,Tidak,Paruh Waktu,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Rumah mengontrak bersama-sama,3 km - 4 km,Lainnya,Lainnya,5jt - 7jt,5,21.22
+Teknik Fisika,2.98,Laki-laki,165.0,58.0,SMA,32.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,> 2jt,Rumah mengontrak bersama-sama,2 km - 3 km,Petani/ Nelayan,PNS,3jt - 5jt,6,21.3
+Sains Data,3.4,Laki-laki,178.0,72.0,SMA,7.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Rumah mengontrak bersama-sama,> 5 km,Petani/ Nelayan,Lainnya,3jt - 5jt,5,22.72
+Sains Data,3.42,Laki-laki,175.0,60.0,SMK,5.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Tinggal besama orangtua,> 5 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,4,19.59
+Sains Aktuaria,3.33,Perempuan,153.0,53.0,SMA,9.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Rumah mengontrak bersama-sama,< 1 km,Petani/ Nelayan,Ibu Rumah Tangga,< 1jt,4,22.64
+Sains Data,3.4,Perempuan,161.0,54.0,SMA,9.0,Ya,Tidak bekerja,Paket Data Seluler,Lainnya,500k - 1jt,Kos,1 km - 2 km,Lainnya,Petani/ Nelayan,1jt - 3jt,4,20.83
+Sains Data,3.4,Laki-laki,161.0,54.0,SMA,25.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Rumah mengontrak bersama-sama,> 5 km,PNS,Ibu Rumah Tangga,3jt - 5jt,5,20.83
+Rekayasa Kosmetik,3.4,Perempuan,159.0,47.0,SMA,9.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Lainnya,500k - 1jt,Tinggal besama orangtua,> 5 km,Lainnya,Ibu Rumah Tangga,3jt - 5jt,5,18.59
+Biologi,3.55,Perempuan,155.0,40.0,SMA,2.0,Ya,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,1 km - 2 km,Petani/ Nelayan,Ibu Rumah Tangga,< 1jt,4,16.65
+Sains Data,3.4,Perempuan,155.0,50.0,SMA,5.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,"1jt - 1,5jt",Kos,< 1 km,PNS,PNS,3jt - 5jt,5,20.81
+Teknik Biosistem,3.19,Perempuan,161.0,54.0,SMA,48.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif kegiatan akademik,500k - 1jt,Rumah mengontrak bersama-sama,2 km - 3 km,Wiraswata,Ibu Rumah Tangga,< 1jt,7,20.83
+Sains Aktuaria,3.17,Perempuan,149.0,50.0,SMA,3.0,Tidak,Tidak bekerja,Paket Data Seluler,Lainnya,"1jt - 1,5jt",Kos,1 km - 2 km,Karyawan Swasta,PNS,> 9jt,6,22.52
+Teknik Mesin,3.4,Laki-laki,165.0,70.0,SMA,2.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Asrama,1 km - 2 km,Petani/ Nelayan,Ibu Rumah Tangga,7jt - 9jt,6,25.71
+Fisika,2.71,Perempuan,148.0,43.0,SMA,9.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif kegiatan akademik,500k - 1jt,Kos,2 km - 3 km,Wiraswata,PNS,1jt - 3jt,4,19.63
+Sains Data,3.4,Perempuan,161.0,54.0,SMK,9.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif kegiatan akademik,500k - 1jt,Kos,1 km - 2 km,PNS,Ibu Rumah Tangga,3jt - 5jt,5,20.83
+Teknik Fisika,3.57,Laki-laki,159.0,51.0,SMA,4.0,Ya,Tidak bekerja,Fasilitas Kampus,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,1 km - 2 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,6,20.17
+Sains Data,2.4,Laki-laki,161.0,54.0,SMA,1.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Tinggal besama orangtua,> 5 km,Wiraswata,PNS,1jt - 3jt,5,20.83
+Sains Atmosfer Dan Keplanetan,2.47,Laki-laki,168.0,52.0,SMA,5.0,Tidak,Tidak bekerja,Fasilitas Kampus,Tidak Aktif,500k - 1jt,Kos,1 km - 2 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,4,18.42
+Teknologi Pangan,3.4,Perempuan,160.0,51.0,SMA,20.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Tinggal besama orangtua,> 5 km,Wiraswata,Ibu Rumah Tangga,1jt - 3jt,4,19.92
+Sains Aktuaria,3.4,Laki-laki,177.0,70.0,SMA,9.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif kegiatan akademik,"1jt - 1,5jt",Kos,< 1 km,PNS,Ibu Rumah Tangga,7jt - 9jt,3,22.34
+Teknik Kimia,3.74,Laki-laki,168.0,78.0,SMA,2.0,Ya,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,2 km - 3 km,Pensiunan,Wiraswata,1jt - 3jt,4,27.64
+Sains Aktuaria,3.58,Laki-laki,182.0,80.0,SMA,45.0,Tidak,Paruh Waktu,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,1 km - 2 km,Lainnya,Wiraswata,< 1jt,3,24.15
+Teknik Sistem Energi,3.4,Laki-laki,161.0,54.0,SMK,9.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Kos,< 1 km,Wiraswata,Ibu Rumah Tangga,3jt - 5jt,5,20.83
+Arsitektur,4.0,Perempuan,161.0,74.0,SMA,21.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Tinggal besama orangtua,> 5 km,PNS,PNS,7jt - 9jt,4,28.55
+Teknologi Pangan,4.0,Perempuan,163.0,47.0,SMA,20.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Tinggal besama orangtua,> 5 km,Wiraswata,Ibu Rumah Tangga,1jt - 3jt,3,17.69
+Teknik Geomatika,4.0,Perempuan,165.0,68.0,SMA,15.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Kos,1 km - 2 km,Karyawan Swasta,Ibu Rumah Tangga,5jt - 7jt,4,24.98
+Matematika,4.0,Laki-laki,165.0,67.0,SMA,70.0,Tidak,Paruh Waktu,Paket Data Seluler,Tidak Aktif,500k - 1jt,Kos,3 km - 4 km,Karyawan Swasta,Ibu Rumah Tangga,1jt - 3jt,4,24.61
+Teknik Geofisika,4.0,Perempuan,155.0,38.0,SMA,8.0,Tidak,Tidak bekerja,Paket Data Seluler,Lainnya,500k - 1jt,Kos,2 km - 3 km,Petani/ Nelayan,Ibu Rumah Tangga,< 1jt,2,15.82
+Teknik Lingkungan,4.0,Perempuan,156.0,55.0,SMA,4.0,Ya,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Kos,< 1 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,4,22.6
+Sains Data,2.78,Laki-laki,156.0,54.0,SMA,2.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,2 km - 3 km,Karyawan Swasta,Ibu Rumah Tangga,3jt - 5jt,5,22.19
+Sains Data,3.74,Laki-laki,167.0,55.0,SMA,3.0,Tidak,Tidak bekerja,Fasilitas Kampus,Aktif kegiatan akademik,"1,5jt - 2jt",Kos,< 1 km,PNS,Ibu Rumah Tangga,5jt - 7jt,3,19.72
+Sains Data,3.43,Perempuan,161.0,58.0,SMA,7.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,> 2jt,Tinggal besama orangtua,> 5 km,Wiraswata,Ibu Rumah Tangga,3jt - 5jt,5,22.38
+Sains Data,3.0,Laki-laki,168.0,55.0,SMA,1.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,"1jt - 1,5jt",Kos,3 km - 4 km,Petani/ Nelayan,Lainnya,3jt - 5jt,4,19.49
+Kimia,3.16,Perempuan,149.0,73.0,SMA,2.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Lainnya,500k - 1jt,Tinggal besama orangtua,> 5 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,6,32.88
+Sains Data,3.6,Laki-laki,173.0,69.0,SMA,3.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,"1jt - 1,5jt",Kos,1 km - 2 km,Pensiunan,PNS,7jt - 9jt,4,23.05
+Sains Data,3.64,Perempuan,155.0,48.0,SMA,28.0,Ya,Tidak bekerja,Fasilitas Kampus,Lainnya,500k - 1jt,Kos,< 1 km,Wiraswata,Ibu Rumah Tangga,< 1jt,5,19.98
+Sains Data,3.89,Perempuan,160.0,60.0,SMA,9.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Tinggal besama orangtua,> 5 km,Petani/ Nelayan,Petani/ Nelayan,< 1jt,9,23.44
+Teknologi Pangan,4.0,Perempuan,151.0,55.0,SMK,48.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif kegiatan akademik,500k - 1jt,Kos,> 5 km,PNS,PNS,1jt - 3jt,5,24.12
+Teknologi Pangan,3.7,Perempuan,152.0,40.0,SMA,20.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Lainnya,500k - 1jt,Rumah mengontrak bersama-sama,1 km - 2 km,Petani/ Nelayan,PNS,1jt - 3jt,4,17.31
+Arsitektur Lanskap,3.4,Laki-laki,176.0,58.0,SMA,23.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Kos,< 1 km,Karyawan Swasta,PNS,> 9jt,4,18.72
+Sains Data,3.33,Perempuan,155.0,42.0,SMA,18.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Tinggal besama orangtua,> 5 km,PNS,Ibu Rumah Tangga,5jt - 7jt,7,17.48
+Sains Data,3.72,Laki-laki,170.0,55.0,SMA,20.0,Tidak,Tidak bekerja,Paket Data Seluler,Lainnya,"1jt - 1,5jt",Rumah mengontrak bersama-sama,2 km - 3 km,Lainnya,Ibu Rumah Tangga,3jt - 5jt,2,19.03
+Sains Data,3.07,Laki-laki,168.0,55.0,SMA,1.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,"1jt - 1,5jt",Kos,3 km - 4 km,Petani/ Nelayan,Ibu Rumah Tangga,3jt - 5jt,4,19.49
+Sains Data,3.67,Laki-laki,161.0,54.0,SMA,7.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif kegiatan akademik,500k - 1jt,Tinggal besama orangtua,> 5 km,Karyawan Swasta,Karyawan Swasta,5jt - 7jt,5,20.83
+Teknik Geologi,3.4,Laki-laki,165.0,48.0,SMK,14.0,Ya,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Kos,> 5 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,4,17.63
+Sains Atmosfer Dan Keplanetan,3.74,Laki-laki,170.0,55.0,SMA,2.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,"1jt - 1,5jt",Kos,< 1 km,Karyawan Swasta,Ibu Rumah Tangga,> 9jt,3,19.03
+Perencanaan Wilayah Dan Kota,3.4,Laki-laki,165.0,66.0,SMA,1.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Kos,< 1 km,Lainnya,PNS,3jt - 5jt,5,24.24
+Perencanaan Wilayah Dan Kota,2.8,Laki-laki,170.0,60.0,SMA,40.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Rumah mengontrak bersama-sama,2 km - 3 km,Wiraswata,Ibu Rumah Tangga,3jt - 5jt,5,20.76
+Sains Data,3.24,Laki-laki,174.0,68.0,SMA,7.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif kegiatan akademik,500k - 1jt,Kos,2 km - 3 km,Pensiunan,PNS,3jt - 5jt,8,22.46
+Sains Data,3.26,Perempuan,151.0,55.0,SMA,3.0,Ya,Tidak bekerja,Fasilitas Kampus,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,1 km - 2 km,Petani/ Nelayan,Lainnya,1jt - 3jt,4,24.12
+Arsitektur,3.83,Perempuan,165.0,55.0,SMA,3.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif kegiatan akademik,500k - 1jt,Rumah mengontrak Pribadi,2 km - 3 km,Lainnya,Ibu Rumah Tangga,< 1jt,4,20.2
+Sains Data,3.07,Laki-laki,165.0,58.0,SMA,5.0,Ya,Tidak bekerja,Paket Data Seluler,Aktif kegiatan akademik,500k - 1jt,Kos,1 km - 2 km,Petani/ Nelayan,Ibu Rumah Tangga,1jt - 3jt,4,21.3
+Perencanaan Wilayah Dan Kota,3.4,Laki-laki,161.0,54.0,SMA,34.0,Tidak,Penuh Waktu,Wi-Fi pribadi,Tidak Aktif,"1jt - 1,5jt",Kos,1 km - 2 km,PNS,Ibu Rumah Tangga,5jt - 7jt,3,20.83
+Teknik Geologi,3.4,Perempuan,160.0,60.0,SMA,90.0,Tidak,Tidak bekerja,Fasilitas Kampus,Tidak Aktif,"1,5jt - 2jt",Kos,< 1 km,Lainnya,Wiraswata,3jt - 5jt,4,23.44
+Sains Atmosfer Dan Keplanetan,2.6,Laki-laki,172.0,120.0,SMA,2.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,"1jt - 1,5jt",Kos,< 1 km,PNS,PNS,3jt - 5jt,5,40.56
+Teknik Informatika,3.8,Perempuan,160.0,75.0,SMA,40.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif kegiatan akademik,500k - 1jt,Asrama,< 1 km,Lainnya,Petani/ Nelayan,1jt - 3jt,5,29.3
+Teknik Informatika,3.4,Laki-laki,175.0,80.0,SMA,5.0,Tidak,Paruh Waktu,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,> 2jt,Tinggal besama orangtua,> 5 km,PNS,PNS,5jt - 7jt,4,26.12
+Teknik Telekomunikasi,3.4,Laki-laki,160.0,53.0,SMK,2.0,Tidak,Tidak bekerja,Paket Data Seluler,Lainnya,"1jt - 1,5jt",Asrama,1 km - 2 km,Wiraswata,Ibu Rumah Tangga,1jt - 3jt,7,20.7
+Sains Data,3.28,Perempuan,162.0,46.0,SMA,35.0,Tidak,Tidak bekerja,Paket Data Seluler,Lainnya,500k - 1jt,Rumah mengontrak Pribadi,> 5 km,Wiraswata,Wiraswata,1jt - 3jt,5,17.53
+Teknik Geofisika,3.5,Laki-laki,173.0,68.0,SMA,30.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,"1jt - 1,5jt",Kos,1 km - 2 km,Wiraswata,Ibu Rumah Tangga,3jt - 5jt,6,22.72
+Arsitektur,3.4,Perempuan,161.0,47.0,SMA,2.0,Ya,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Asrama,1 km - 2 km,Petani/ Nelayan,Ibu Rumah Tangga,1jt - 3jt,4,18.13
+Matematika,4.0,Perempuan,160.0,63.0,SMA,6.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Kos,< 1 km,Wiraswata,Ibu Rumah Tangga,1jt - 3jt,5,24.61
+Sains Data,3.58,Perempuan,156.0,45.0,SMA,14.0,Tidak,Tidak bekerja,Paket Data Seluler,Lainnya,500k - 1jt,Rumah mengontrak Pribadi,3 km - 4 km,Wiraswata,Ibu Rumah Tangga,3jt - 5jt,5,18.49
+Sains Data,2.89,Perempuan,158.0,60.0,SMA,3.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,"1,5jt - 2jt",Kos,< 1 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,3,24.03
+Teknik Informatika,3.4,Laki-laki,160.0,160.0,SMA,2.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Kos,3 km - 4 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,5,62.5
+Fisika,3.18,Laki-laki,165.0,53.0,SMA,56.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Lainnya,500k - 1jt,Tinggal besama orangtua,2 km - 3 km,Lainnya,PNS,5jt - 7jt,5,19.47
+Desain Komunikasi Visual,4.0,Perempuan,148.0,52.0,SMA,0.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif kegiatan akademik,"1,5jt - 2jt",Kos,> 5 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,4,23.74
+Teknik Elektro,3.0,Laki-laki,165.0,42.0,SMA,20.0,Ya,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,< 1 km,Petani/ Nelayan,Ibu Rumah Tangga,< 1jt,4,15.43
+Desain Komunikasi Visual,4.0,Perempuan,153.0,40.0,SMA,29.0,Tidak,Tidak bekerja,Paket Data Seluler,Lainnya,500k - 1jt,Kos,1 km - 2 km,PNS,PNS,3jt - 5jt,4,17.09
+Teknik Informatika,3.4,Perempuan,161.0,54.0,SMA,30.0,Ya,Tidak bekerja,Wi-Fi pribadi,Lainnya,500k - 1jt,Tinggal besama orangtua,> 5 km,Lainnya,Ibu Rumah Tangga,< 1jt,5,20.83
+Teknik Informatika,3.8,Perempuan,160.0,75.0,SMA,40.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif kegiatan akademik,500k - 1jt,Asrama,< 1 km,Lainnya,Petani/ Nelayan,1jt - 3jt,5,29.3
+Sains Data,3.4,Laki-laki,180.0,70.0,SMK,50.0,Tidak,Paruh Waktu,Fasilitas Kampus,Tidak Aktif,"1,5jt - 2jt",Rumah mengontrak Pribadi,> 5 km,Lainnya,Lainnya,> 9jt,6,21.6
+Teknologi Industri Pertanian,3.29,Perempuan,161.0,52.0,SMA,20.0,Ya,Tidak bekerja,Wi-Fi pribadi,Aktif kegiatan akademik,"1,5jt - 2jt",Tinggal besama orangtua,1 km - 2 km,Lainnya,Ibu Rumah Tangga,< 1jt,4,20.06
+Kimia,3.75,Laki-laki,168.0,46.0,SMK,6.0,Ya,Tidak bekerja,Fasilitas Kampus,Lainnya,500k - 1jt,Kos,> 5 km,Lainnya,Ibu Rumah Tangga,< 1jt,10,16.3
+Sains Data,3.4,Laki-laki,165.0,48.0,SMA,3.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif kegiatan akademik,500k - 1jt,Kos,> 5 km,Lainnya,Wiraswata,< 1jt,5,17.63
+Sains Data,3.35,Perempuan,155.0,80.0,SMA,3.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,"1,5jt - 2jt",Kos,2 km - 3 km,Wiraswata,Ibu Rumah Tangga,3jt - 5jt,7,33.3
+Teknik Sipil,3.4,Laki-laki,167.0,52.0,SMA,2.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Kos,2 km - 3 km,Wiraswata,Lainnya,< 1jt,4,18.65
+Kimia,3.21,Perempuan,148.0,41.0,SMA,7.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Rumah mengontrak bersama-sama,2 km - 3 km,Lainnya,Ibu Rumah Tangga,< 1jt,3,18.72
+Teknik Geofisika,3.4,Perempuan,150.0,36.0,SMA,18.0,Ya,Tidak bekerja,Fasilitas Kampus,Aktif kegiatan akademik,500k - 1jt,Asrama,< 1 km,Petani/ Nelayan,Petani/ Nelayan,< 1jt,7,16.0
+Perencanaan Wilayah Dan Kota,3.4,Laki-laki,165.0,55.0,SMA,48.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Kos,2 km - 3 km,Karyawan Swasta,Ibu Rumah Tangga,3jt - 5jt,4,20.2
+Sains Data,3.47,Perempuan,149.0,40.0,SMA,2.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Tinggal besama orangtua,> 5 km,Karyawan Swasta,PNS,5jt - 7jt,5,18.02
+Sains Data,3.4,Laki-laki,177.0,75.0,SMA,28.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Kos,2 km - 3 km,Karyawan Swasta,Ibu Rumah Tangga,3jt - 5jt,4,23.94
+Teknik Biomedis,2.98,Perempuan,157.0,90.0,SMA,46.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,> 5 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,6,36.51
+Teknik Mesin,3.4,Laki-laki,167.0,54.0,SMA,75.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif kegiatan akademik,500k - 1jt,Kos,1 km - 2 km,Wiraswata,Ibu Rumah Tangga,1jt - 3jt,5,19.36
+Pariwisata,3.4,Perempuan,170.0,73.0,SMA,20.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Tinggal besama orangtua,> 5 km,PNS,Ibu Rumah Tangga,5jt - 7jt,4,25.26
+Pariwisata,3.65,Perempuan,165.0,50.0,SMK,15.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Kos,1 km - 2 km,Wiraswata,Ibu Rumah Tangga,1jt - 3jt,6,18.37
+Sains Data,0.0,Laki-laki,172.0,47.0,SMA,4.0,Tidak,Tidak bekerja,Lainnya,Tidak Aktif,"1jt - 1,5jt",Kos,> 5 km,Wiraswata,Ibu Rumah Tangga,3jt - 5jt,5,15.89
+Teknik Sipil,3.4,Perempuan,161.0,54.0,SMA,90.0,Ya,Tidak bekerja,Paket Data Seluler,Tidak Aktif,"1jt - 1,5jt",Kos,< 1 km,Petani/ Nelayan,Petani/ Nelayan,< 1jt,6,20.83
+Kimia,2.53,Laki-laki,161.0,43.0,SMA,3.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Lainnya,> 2jt,Tinggal besama orangtua,> 5 km,Karyawan Swasta,Ibu Rumah Tangga,5jt - 7jt,4,16.59
+Teknologi Pangan,3.5,Perempuan,160.0,58.0,SMA,30.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Lainnya,500k - 1jt,Tinggal besama orangtua,> 5 km,Wiraswata,Lainnya,1jt - 3jt,4,22.66
+Sains Data,3.79,Laki-laki,161.0,54.0,SMA,12.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Kos,2 km - 3 km,Lainnya,Ibu Rumah Tangga,3jt - 5jt,5,20.83
+Kimia,3.94,Perempuan,150.0,50.0,SMA,10.0,Ya,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,"1jt - 1,5jt",Kos,1 km - 2 km,Petani/ Nelayan,Ibu Rumah Tangga,3jt - 5jt,4,22.22
+Sains Data,3.69,Laki-laki,180.0,84.0,SMA,4.0,Tidak,Tidak bekerja,Fasilitas Kampus,Aktif kegiatan akademik,500k - 1jt,Rumah mengontrak bersama-sama,1 km - 2 km,Petani/ Nelayan,Lainnya,1jt - 3jt,5,25.93
+Teknik Lingkungan,3.67,Perempuan,157.0,64.0,SMA,4.0,Ya,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Kos,1 km - 2 km,Petani/ Nelayan,Petani/ Nelayan,< 1jt,6,25.96
+Desain Komunikasi Visual,4.0,Perempuan,161.0,54.0,SMA,32.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,> 2jt,Kos,1 km - 2 km,Wiraswata,Wiraswata,> 9jt,7,20.83
+Teknik Informatika,3.5,Perempuan,154.0,48.0,SMA,3.0,Ya,Tidak bekerja,Fasilitas Kampus,Aktif kegiatan akademik,500k - 1jt,Kos,1 km - 2 km,Petani/ Nelayan,Ibu Rumah Tangga,< 1jt,4,20.24
+Teknik Material,3.33,Laki-laki,168.0,52.0,SMA,14.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Asrama,< 1 km,Lainnya,PNS,3jt - 5jt,2,18.42
+Teknik Biomedis,2.89,Laki-laki,161.0,54.0,SMA,6.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,> 2jt,Kos,< 1 km,Wiraswata,Ibu Rumah Tangga,> 9jt,5,20.83
+Sains Aktuaria,3.53,Laki-laki,164.0,75.0,SMA,6.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Kos,< 1 km,Pensiunan,Ibu Rumah Tangga,3jt - 5jt,4,27.89
+Farmasi,2.9,Laki-laki,171.0,65.0,SMA,4.0,Tidak,Paruh Waktu,Wi-Fi pribadi,Aktif kegiatan akademik,500k - 1jt,Tinggal besama orangtua,> 5 km,Wiraswata,Karyawan Swasta,> 9jt,4,22.23
+Sains Data,3.4,Laki-laki,168.0,50.0,SMA,4.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Tinggal besama orangtua,> 5 km,PNS,Ibu Rumah Tangga,5jt - 7jt,3,17.72
+Matematika,3.4,Perempuan,162.0,65.0,SMA,9.0,Ya,Tidak bekerja,Paket Data Seluler,Lainnya,500k - 1jt,Kos,> 5 km,Lainnya,Lainnya,1jt - 3jt,4,24.77
+Farmasi,3.21,Perempuan,146.0,50.0,SMA,24.0,Tidak,Tidak bekerja,Fasilitas Kampus,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Kos,2 km - 3 km,Karyawan Swasta,PNS,3jt - 5jt,6,23.46
+Sains Aktuaria,4.0,Perempuan,155.0,42.0,SMA,20.0,Tidak,Tidak bekerja,Fasilitas Kampus,Tidak Aktif,500k - 1jt,Kos,1 km - 2 km,Petani/ Nelayan,Ibu Rumah Tangga,< 1jt,4,17.48
+Farmasi,3.64,Laki-laki,170.0,98.0,SMA,4.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Kos,1 km - 2 km,Lainnya,Lainnya,3jt - 5jt,4,33.91
+Teknik Sistem Energi,3.4,Perempuan,150.0,38.0,SMK,12.0,Ya,Tidak bekerja,Paket Data Seluler,Lainnya,"1jt - 1,5jt",Kos,1 km - 2 km,Karyawan Swasta,Ibu Rumah Tangga,3jt - 5jt,6,16.89
+Teknik Informatika,3.76,Laki-laki,164.0,101.0,SMA,18.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Tinggal besama orangtua,> 5 km,Lainnya,Ibu Rumah Tangga,< 1jt,4,37.55
+Teknologi Pangan,3.5,Perempuan,160.0,58.0,SMA,4.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Lainnya,500k - 1jt,Tinggal besama orangtua,> 5 km,Wiraswata,Lainnya,1jt - 3jt,4,22.66
+Kimia,3.94,Perempuan,150.0,50.0,SMA,8.0,Ya,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,"1jt - 1,5jt",Kos,1 km - 2 km,Petani/ Nelayan,Ibu Rumah Tangga,3jt - 5jt,4,22.22
+Sains Data,3.4,Laki-laki,167.0,65.0,SMA,9.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,"1,5jt - 2jt",Kos,1 km - 2 km,Wiraswata,PNS,7jt - 9jt,5,23.31
+Teknik Biomedis,3.41,Laki-laki,158.0,48.0,SMA,68.0,Tidak,Tidak bekerja,Paket Data Seluler,Lainnya,500k - 1jt,Kos,1 km - 2 km,Petani/ Nelayan,Lainnya,1jt - 3jt,6,19.23
+Teknik Geologi,3.5,Laki-laki,170.0,50.0,SMA,8.0,Ya,Tidak bekerja,Lainnya,Tidak Aktif,500k - 1jt,Kos,2 km - 3 km,Petani/ Nelayan,Lainnya,1jt - 3jt,4,17.3
+Perencanaan Wilayah Dan Kota,2.97,Perempuan,153.0,39.0,SMA,24.0,Ya,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,1 km - 2 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,6,16.66
+Perencanaan Wilayah Dan Kota,2.8,Laki-laki,161.0,46.0,SMA,9.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif kegiatan akademik,> 2jt,Rumah mengontrak Pribadi,> 5 km,Wiraswata,Ibu Rumah Tangga,1jt - 3jt,4,17.75
+Teknik Biomedis,3.01,Perempuan,161.0,54.0,SMA,1.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Kos,< 1 km,Lainnya,PNS,3jt - 5jt,5,20.83
+Teknik Biomedis,2.9,Perempuan,158.0,40.0,SMK,8.0,Tidak,Tidak bekerja,Paket Data Seluler,Lainnya,500k - 1jt,Kos,3 km - 4 km,Karyawan Swasta,Ibu Rumah Tangga,1jt - 3jt,5,16.02
+Teknologi Pangan,3.33,Perempuan,156.0,45.0,SMA,23.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Kos,< 1 km,Petani/ Nelayan,Wiraswata,1jt - 3jt,5,18.49
+Teknik Pertambangan,3.6,Perempuan,161.0,59.0,SMA,45.0,Ya,Tidak bekerja,Paket Data Seluler,Lainnya,"1,5jt - 2jt",Kos,1 km - 2 km,Petani/ Nelayan,Ibu Rumah Tangga,1jt - 3jt,6,22.76
+Sains Data,3.22,Laki-laki,170.0,58.0,SMA,3.0,Ya,Tidak bekerja,Wi-Fi pribadi,Aktif kegiatan akademik,500k - 1jt,Tinggal besama orangtua,2 km - 3 km,Wiraswata,Ibu Rumah Tangga,< 1jt,4,20.07
+Sains Data,3.95,Perempuan,157.0,45.0,SMA,5.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif kegiatan akademik,> 2jt,Rumah mengontrak bersama-sama,1 km - 2 km,Petani/ Nelayan,Ibu Rumah Tangga,5jt - 7jt,4,18.26
+Teknik Biomedis,3.53,Perempuan,167.0,52.0,SMA,9.0,Tidak,Tidak bekerja,Lainnya,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,3 km - 4 km,Pensiunan,Pensiunan,1jt - 3jt,5,18.65
+Sains Data,3.01,Laki-laki,183.0,85.0,SMA,5.0,Tidak,Tidak bekerja,Fasilitas Kampus,Lainnya,500k - 1jt,Kos,1 km - 2 km,Lainnya,Lainnya,1jt - 3jt,2,25.38
+Teknik Biomedis,3.4,Perempuan,161.0,54.0,SMA,34.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,1 km - 2 km,Lainnya,PNS,3jt - 5jt,5,20.83
+Rekayasa Kosmetik,3.4,Laki-laki,161.0,54.0,SMA,15.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,> 2jt,Kos,< 1 km,Wiraswata,Ibu Rumah Tangga,> 9jt,4,20.83
+Sains Data,3.4,Perempuan,161.0,57.0,SMA,14.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Kos,> 5 km,Wiraswata,Ibu Rumah Tangga,1jt - 3jt,3,21.99
+Teknik Informatika,3.5,Perempuan,160.0,45.0,SMA,10.0,Ya,Tidak bekerja,Paket Data Seluler,Lainnya,500k - 1jt,Kos,1 km - 2 km,Petani/ Nelayan,Lainnya,< 1jt,4,17.58
+Teknik Sipil,3.08,Laki-laki,161.0,54.0,SMK,25.0,Ya,Paruh Waktu,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Rumah mengontrak bersama-sama,3 km - 4 km,Lainnya,Ibu Rumah Tangga,< 1jt,5,20.83
+Teknik Pertambangan,4.0,Perempuan,145.0,37.0,SMA,67.0,Ya,Tidak bekerja,Paket Data Seluler,Aktif kegiatan akademik,"1jt - 1,5jt",Asrama,< 1 km,Petani/ Nelayan,Ibu Rumah Tangga,1jt - 3jt,4,17.6
+Sains Data,3.26,Perempuan,152.0,38.0,SMA,5.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Kos,< 1 km,PNS,PNS,3jt - 5jt,5,16.45
+Pariwisata,3.6,Perempuan,160.0,58.0,SMA,15.0,Tidak,Tidak bekerja,Lainnya,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,> 5 km,Wiraswata,Pensiunan,1jt - 3jt,5,22.66
+Farmasi,3.21,Perempuan,146.0,50.0,SMA,5.0,Tidak,Tidak bekerja,Fasilitas Kampus,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Kos,2 km - 3 km,Karyawan Swasta,PNS,3jt - 5jt,6,23.46
+Teknik Geofisika,3.02,Laki-laki,164.0,47.0,SMK,9.0,Tidak,Tidak bekerja,Lainnya,Aktif organisasi kemahasiswaan,"1,5jt - 2jt",Kos,2 km - 3 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,3,17.47
+Teknik Industri,3.3,Laki-laki,164.0,67.0,SMA,60.0,Tidak,Paruh Waktu,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Tinggal besama orangtua,> 5 km,Lainnya,Pensiunan,> 9jt,3,24.91
+Teknik Biomedis,4.0,Perempuan,165.0,70.0,SMA,2.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Tinggal besama orangtua,> 5 km,Wiraswata,Ibu Rumah Tangga,1jt - 3jt,3,25.71
+Teknik Informatika,3.87,Laki-laki,175.0,68.0,SMA,7.0,Ya,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Rumah mengontrak bersama-sama,1 km - 2 km,Lainnya,Lainnya,< 1jt,7,22.2
+Teknik Biomedis,3.4,Perempuan,155.0,48.0,SMA,6.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Kos,< 1 km,Petani/ Nelayan,Petani/ Nelayan,1jt - 3jt,4,19.98
+Sains Data,3.4,Perempuan,153.0,58.0,SMA,9.0,Ya,Tidak bekerja,Lainnya,Lainnya,500k - 1jt,Kos,3 km - 4 km,Wiraswata,Ibu Rumah Tangga,< 1jt,6,24.78
+Arsitektur,3.1,Laki-laki,172.0,90.0,SMA,5.0,Ya,Tidak bekerja,Lainnya,Lainnya,500k - 1jt,Kos,1 km - 2 km,Lainnya,Ibu Rumah Tangga,< 1jt,3,30.42
+Rekayasa Instrumentasi Dan Automasi,3.4,Laki-laki,173.0,55.0,SMA,8.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Rumah mengontrak bersama-sama,> 5 km,Karyawan Swasta,Ibu Rumah Tangga,3jt - 5jt,4,18.38
+Sains Data,2.83,Perempuan,161.0,54.0,SMA,5.0,Ya,Tidak bekerja,Paket Data Seluler,Lainnya,500k - 1jt,Tinggal besama orangtua,> 5 km,Lainnya,Ibu Rumah Tangga,< 1jt,4,20.83
+Teknik Biomedis,3.4,Perempuan,155.0,45.0,SMA,20.0,Ya,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,< 1 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,5,18.73
+Sains Data,3.31,Laki-laki,161.0,52.0,SMA,14.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif kegiatan akademik,500k - 1jt,Kos,> 5 km,Wiraswata,Ibu Rumah Tangga,< 1jt,3,20.06
+Teknik Sipil,2.5,Perempuan,158.0,53.0,SMK,2.0,Tidak,Paruh Waktu,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Tinggal besama orangtua,> 5 km,Wiraswata,Ibu Rumah Tangga,3jt - 5jt,6,21.23
+Teknik Kelautan,2.8,Perempuan,152.0,47.0,SMA,4.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Lainnya,500k - 1jt,Kos,< 1 km,Lainnya,Lainnya,> 9jt,4,20.34
+Farmasi,3.58,Laki-laki,175.0,73.0,SMA,8.0,Tidak,Tidak bekerja,Paket Data Seluler,Lainnya,500k - 1jt,Rumah mengontrak Pribadi,> 5 km,Lainnya,Lainnya,1jt - 3jt,4,23.84
+Teknik Industri,3.05,Laki-laki,161.0,54.0,SMA,8.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,> 2jt,Kos,1 km - 2 km,PNS,Ibu Rumah Tangga,> 9jt,4,20.83
+Perencanaan Wilayah Dan Kota,3.4,Laki-laki,170.0,60.0,SMA,10.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,1 km - 2 km,Karyawan Swasta,Karyawan Swasta,5jt - 7jt,4,20.76
+Sains Aktuaria,3.6,Perempuan,157.0,46.0,SMA,4.0,Ya,Paruh Waktu,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,< 1 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,3,18.66
+Sains Data,3.2,Perempuan,169.0,50.0,SMA,8.0,Ya,Tidak bekerja,Wi-Fi pribadi,Aktif kegiatan akademik,"1,5jt - 2jt",Kos,2 km - 3 km,Wiraswata,Ibu Rumah Tangga,5jt - 7jt,5,17.51
+Teknik Biomedis,3.57,Perempuan,158.0,50.0,SMA,10.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,< 1 km,Petani/ Nelayan,Ibu Rumah Tangga,1jt - 3jt,5,20.03
+Teknik Sistem Energi,3.4,Perempuan,155.0,45.0,SMA,12.0,Ya,Tidak bekerja,Fasilitas Kampus,Aktif organisasi kemahasiswaan,500k - 1jt,Rumah mengontrak bersama-sama,1 km - 2 km,Petani/ Nelayan,Ibu Rumah Tangga,1jt - 3jt,5,18.73
+Sains Data,2.88,Laki-laki,170.0,48.0,SMA,5.0,Tidak,Paruh Waktu,Paket Data Seluler,Tidak Aktif,500k - 1jt,Kos,1 km - 2 km,Lainnya,Ibu Rumah Tangga,3jt - 5jt,5,16.61
+Rekayasa Instrumentasi Dan Automasi,3.0,Laki-laki,175.0,55.0,SMK,44.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif kegiatan akademik,500k - 1jt,Tinggal besama orangtua,> 5 km,Wiraswata,Ibu Rumah Tangga,< 1jt,5,17.96
+Sains Data,3.67,Perempuan,153.0,49.0,SMA,2.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,"1,5jt - 2jt",Kos,1 km - 2 km,Pensiunan,Karyawan Swasta,5jt - 7jt,4,20.93
+Teknik Biomedis,3.55,Laki-laki,165.0,52.0,SMA,6.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Tinggal besama orangtua,> 5 km,PNS,PNS,3jt - 5jt,6,19.1
+Sains Data,3.06,Laki-laki,157.0,48.0,SMA,15.0,Tidak,Paruh Waktu,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Asrama,< 1 km,Wiraswata,Wiraswata,1jt - 3jt,5,19.47
+Sains Data,3.19,Laki-laki,171.0,61.0,SMA,4.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,"1,5jt - 2jt",Kos,3 km - 4 km,PNS,Ibu Rumah Tangga,3jt - 5jt,4,20.86
+Teknik Geofisika,3.4,Perempuan,161.0,54.0,SMA,35.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,"1jt - 1,5jt",Kos,< 1 km,Lainnya,Ibu Rumah Tangga,3jt - 5jt,6,20.83
+Arsitektur,3.9,Laki-laki,190.0,67.0,SMA,70.0,Ya,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Rumah mengontrak bersama-sama,2 km - 3 km,Ibu Rumah Tangga,Ibu Rumah Tangga,< 1jt,6,18.56
+Teknik Geomatika,3.4,Laki-laki,178.0,60.0,SMK,14.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,1 km - 2 km,Petani/ Nelayan,Ibu Rumah Tangga,< 1jt,5,18.94
+Sains Data,3.59,Perempuan,161.0,54.0,SMK,8.0,Ya,Tidak bekerja,Wi-Fi pribadi,Aktif kegiatan akademik,500k - 1jt,Tinggal besama orangtua,1 km - 2 km,PNS,Lainnya,3jt - 5jt,5,20.83
+Teknik Kelautan,2.6,Perempuan,155.0,53.0,SMA,48.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,1 km - 2 km,Pensiunan,Wiraswata,< 1jt,2,22.06
+Teknik Geofisika,4.0,Laki-laki,166.0,58.0,SMA,46.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,1 km - 2 km,Lainnya,Lainnya,5jt - 7jt,5,21.05
+Teknik Lingkungan,3.4,Perempuan,161.0,54.0,SMA,7.0,Ya,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Kos,1 km - 2 km,Lainnya,Petani/ Nelayan,3jt - 5jt,5,20.83
+Teknik Geofisika,3.4,Laki-laki,169.0,70.0,SMA,24.0,Tidak,Tidak bekerja,Paket Data Seluler,Lainnya,500k - 1jt,Kos,3 km - 4 km,Karyawan Swasta,Ibu Rumah Tangga,1jt - 3jt,4,24.51
+Fisika,3.3,Laki-laki,161.0,75.0,SMA,12.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Kos,1 km - 2 km,PNS,Ibu Rumah Tangga,3jt - 5jt,5,28.93
+Teknik Informatika,3.29,Laki-laki,171.0,60.0,SMK,72.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Tinggal besama orangtua,> 5 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,6,20.52
+Sains Data,3.54,Perempuan,162.0,45.0,SMA,30.0,Ya,Tidak bekerja,Lainnya,Lainnya,500k - 1jt,Kos,< 1 km,Petani/ Nelayan,Petani/ Nelayan,< 1jt,5,17.15
+Sains Data,3.4,Perempuan,155.0,47.0,SMA,2.0,Ya,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,"1,5jt - 2jt",Kos,< 1 km,PNS,Karyawan Swasta,> 9jt,3,19.56
+Sains Aktuaria,3.19,Perempuan,155.0,45.0,SMK,9.0,Ya,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Tinggal besama orangtua,> 5 km,Lainnya,Lainnya,1jt - 3jt,5,18.73
+Teknik Geofisika,3.4,Laki-laki,168.0,71.0,SMA,15.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Kos,< 1 km,Lainnya,Lainnya,< 1jt,4,25.16
+Farmasi,3.5,Perempuan,161.0,58.0,SMA,8.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,> 2jt,Kos,> 5 km,Lainnya,Wiraswata,> 9jt,4,22.38
+Teknik Biomedis,3.4,Laki-laki,160.0,67.0,SMA,35.0,Tidak,Tidak bekerja,Lainnya,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,2 km - 3 km,PNS,Ibu Rumah Tangga,3jt - 5jt,4,26.17
+Rekayasa Kosmetik,3.4,Perempuan,160.0,44.0,SMA,12.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif kegiatan akademik,"1jt - 1,5jt",Kos,< 1 km,Wiraswata,Wiraswata,> 9jt,5,17.19
+Sains Data,3.43,Perempuan,150.0,44.0,SMA,1.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,"1,5jt - 2jt",Kos,3 km - 4 km,Lainnya,Ibu Rumah Tangga,3jt - 5jt,3,19.56
+Sains Data,3.4,Perempuan,161.0,54.0,SMA,2.0,Ya,Tidak bekerja,Fasilitas Kampus,Lainnya,500k - 1jt,Tinggal besama orangtua,> 5 km,Lainnya,Lainnya,1jt - 3jt,2,20.83
+Rekayasa Kehutanan,3.4,Perempuan,150.0,48.0,SMA,130.0,Tidak,Tidak bekerja,Paket Data Seluler,Lainnya,"1jt - 1,5jt",Asrama,< 1 km,Lainnya,PNS,3jt - 5jt,4,21.33
+Pariwisata,3.55,Perempuan,161.0,54.0,SMA,12.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif kegiatan akademik,500k - 1jt,Tinggal besama orangtua,> 5 km,Wiraswata,Ibu Rumah Tangga,1jt - 3jt,3,20.83
+Sains Data,2.9,Laki-laki,177.0,55.0,SMA,18.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Tinggal besama orangtua,> 5 km,PNS,Ibu Rumah Tangga,3jt - 5jt,6,17.56
+Sains Aktuaria,3.78,Laki-laki,170.0,62.0,SMA,1.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Kos,< 1 km,Karyawan Swasta,Ibu Rumah Tangga,1jt - 3jt,5,21.45
+Sains Data,3.4,Perempuan,160.0,47.0,SMA,35.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Kos,2 km - 3 km,Petani/ Nelayan,Ibu Rumah Tangga,< 1jt,2,18.36
+Teknik Telekomunikasi,3.4,Laki-laki,173.0,64.0,SMK,9.0,Ya,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Tinggal besama orangtua,> 5 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,6,21.38
+Teknik Mesin,3.75,Laki-laki,176.0,67.0,SMA,1.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,3 km - 4 km,PNS,Ibu Rumah Tangga,> 9jt,4,21.63
+Desain Komunikasi Visual,3.4,Perempuan,156.0,41.0,SMA,20.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Tinggal besama orangtua,1 km - 2 km,PNS,Ibu Rumah Tangga,3jt - 5jt,5,16.85
+Teknik Biosistem,3.5,Laki-laki,168.0,50.0,SMA,18.0,Ya,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Asrama,> 5 km,Lainnya,Ibu Rumah Tangga,< 1jt,5,17.72
+Sains Atmosfer Dan Keplanetan,3.4,Perempuan,157.0,50.0,SMA,26.0,Tidak,Paruh Waktu,Paket Data Seluler,Lainnya,"1jt - 1,5jt",Kos,2 km - 3 km,Wiraswata,Ibu Rumah Tangga,5jt - 7jt,5,20.28
+Biologi,3.0,Perempuan,152.0,48.0,SMA,34.0,Tidak,Tidak bekerja,Paket Data Seluler,Lainnya,500k - 1jt,Tinggal besama orangtua,> 5 km,Wiraswata,PNS,3jt - 5jt,4,20.78
+Kimia,3.39,Perempuan,161.0,54.0,SMA,8.0,Ya,Tidak bekerja,Fasilitas Kampus,Aktif organisasi kemahasiswaan,500k - 1jt,Rumah mengontrak bersama-sama,2 km - 3 km,Petani/ Nelayan,Ibu Rumah Tangga,1jt - 3jt,7,20.83
+Fisika,3.17,Laki-laki,169.0,70.0,SMK,50.0,Tidak,Paruh Waktu,Paket Data Seluler,Aktif organisasi kemahasiswaan,500k - 1jt,Tinggal besama orangtua,> 5 km,Wiraswata,Ibu Rumah Tangga,3jt - 5jt,6,24.51
+Rekayasa Kosmetik,3.4,Perempuan,160.0,48.0,SMA,2.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Tinggal besama orangtua,1 km - 2 km,Karyawan Swasta,Ibu Rumah Tangga,< 1jt,6,18.75
+Sains Data,3.25,Laki-laki,175.0,64.0,SMA,3.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Tinggal besama orangtua,> 5 km,Karyawan Swasta,Ibu Rumah Tangga,7jt - 9jt,4,20.9
+Sains Data,3.4,Perempuan,168.0,75.0,SMA,23.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Lainnya,500k - 1jt,Tinggal besama orangtua,> 5 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,4,26.57
+Teknik Biomedis,3.7,Perempuan,164.0,51.0,SMA,35.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif kegiatan akademik,> 2jt,Kos,1 km - 2 km,Karyawan Swasta,PNS,5jt - 7jt,4,18.96
+Teknik Pertambangan,3.5,Laki-laki,161.0,54.0,SMA,40.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif kegiatan akademik,500k - 1jt,Rumah mengontrak bersama-sama,> 5 km,Petani/ Nelayan,Ibu Rumah Tangga,3jt - 5jt,7,20.83
+Teknik Sipil,4.0,Perempuan,170.0,49.0,SMA,34.0,Tidak,Tidak bekerja,Fasilitas Kampus,Tidak Aktif,500k - 1jt,Kos,< 1 km,Pensiunan,Karyawan Swasta,3jt - 5jt,4,16.96
+Teknik Informatika,3.66,Laki-laki,168.0,60.0,SMK,3.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Tinggal besama orangtua,> 5 km,PNS,PNS,5jt - 7jt,5,21.26
+Fisika,3.48,Laki-laki,175.0,54.0,SMA,9.0,Ya,Paruh Waktu,Fasilitas Kampus,Aktif organisasi kemahasiswaan,500k - 1jt,Kos,1 km - 2 km,Petani/ Nelayan,Petani/ Nelayan,< 1jt,4,17.63
+Teknik Kimia,3.5,Laki-laki,172.0,80.0,SMA,5.0,Tidak,Paruh Waktu,Paket Data Seluler,Lainnya,500k - 1jt,Rumah mengontrak bersama-sama,> 5 km,Wiraswata,Ibu Rumah Tangga,< 1jt,3,27.04
+Perencanaan Wilayah Dan Kota,3.4,Perempuan,161.0,54.0,SMA,5.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,"1,5jt - 2jt",Kos,1 km - 2 km,Lainnya,Ibu Rumah Tangga,5jt - 7jt,5,20.83
+Arsitektur Lanskap,3.74,Perempuan,160.0,59.0,SMA,10.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Lainnya,500k - 1jt,Rumah mengontrak bersama-sama,> 5 km,Petani/ Nelayan,Ibu Rumah Tangga,< 1jt,5,23.05
+Teknik Geologi,3.39,Perempuan,160.0,43.0,SMA,28.0,Ya,Tidak bekerja,Paket Data Seluler,Lainnya,500k - 1jt,Tinggal besama orangtua,> 5 km,Wiraswata,Lainnya,1jt - 3jt,3,16.8
+Sains Atmosfer Dan Keplanetan,3.3,Perempuan,153.0,50.0,SMA,28.0,Tidak,Tidak bekerja,Paket Data Seluler,Lainnya,"1,5jt - 2jt",Kos,2 km - 3 km,Wiraswata,PNS,3jt - 5jt,3,21.36
+Sains Data,3.4,Laki-laki,182.0,78.0,SMA,14.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Rumah mengontrak Pribadi,2 km - 3 km,Wiraswata,Ibu Rumah Tangga,1jt - 3jt,4,23.55
+Arsitektur,3.2,Laki-laki,178.0,87.0,SMK,24.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif kegiatan akademik,500k - 1jt,Rumah mengontrak bersama-sama,2 km - 3 km,Lainnya,PNS,3jt - 5jt,5,27.46
+Teknik Biomedis,3.54,Perempuan,150.0,46.0,SMA,23.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif kegiatan akademik,"1,5jt - 2jt",Kos,> 5 km,Lainnya,Ibu Rumah Tangga,> 9jt,8,20.44
+Sains Data,3.68,Laki-laki,168.0,54.0,SMA,3.0,Tidak,Paruh Waktu,Paket Data Seluler,Tidak Aktif,500k - 1jt,Tinggal besama orangtua,2 km - 3 km,Pensiunan,Lainnya,5jt - 7jt,4,19.13
+Sains Data,0.0,Perempuan,154.0,53.0,SMA,5.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Kos,< 1 km,Petani/ Nelayan,PNS,1jt - 3jt,6,22.35
+Sains Data,3.4,Laki-laki,167.0,46.0,SMA,4.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,"1jt - 1,5jt",Kos,2 km - 3 km,PNS,PNS,> 9jt,4,16.49
+Sains Data,3.4,Perempuan,161.0,54.0,SMA,7.0,Ya,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Kos,> 5 km,Karyawan Swasta,Ibu Rumah Tangga,1jt - 3jt,5,20.83
+Sains Data,3.4,Perempuan,158.0,51.0,SMA,12.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,"1jt - 1,5jt",Kos,< 1 km,PNS,Ibu Rumah Tangga,3jt - 5jt,4,20.43
+Sains Data,3.4,Perempuan,156.0,52.0,SMA,10.0,Ya,Tidak bekerja,Wi-Fi pribadi,Lainnya,500k - 1jt,Kos,1 km - 2 km,Petani/ Nelayan,Petani/ Nelayan,1jt - 3jt,5,21.37
+Teknik Geofisika,3.4,Laki-laki,168.0,55.0,SMA,3.0,Ya,Tidak bekerja,Paket Data Seluler,Aktif organisasi kemahasiswaan,"1jt - 1,5jt",Asrama,< 1 km,Lainnya,Lainnya,1jt - 3jt,6,19.49
+Sains Data,3.4,Perempuan,161.0,62.0,SMA,10.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,500k - 1jt,Kos,> 5 km,Karyawan Swasta,Ibu Rumah Tangga,3jt - 5jt,5,23.92
+Teknik Pertambangan,3.4,Laki-laki,192.0,70.0,SMA,3.0,Tidak,Paruh Waktu,Wi-Fi pribadi,Lainnya,> 2jt,Tinggal besama orangtua,> 5 km,Karyawan Swasta,Ibu Rumah Tangga,3jt - 5jt,2,18.99
+Teknik Biomedis,3.4,Perempuan,154.0,45.0,SMA,20.0,Ya,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,500k - 1jt,Rumah mengontrak bersama-sama,1 km - 2 km,Lainnya,Lainnya,1jt - 3jt,7,18.97
+Teknik Informatika,2.76,Laki-laki,181.0,88.0,SMA,4.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Aktif organisasi kemahasiswaan,> 2jt,Kos,1 km - 2 km,Karyawan Swasta,Karyawan Swasta,> 9jt,4,26.86
+Sains Atmosfer Dan Keplanetan,3.8,Laki-laki,173.0,51.0,SMA,2.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif kegiatan akademik,500k - 1jt,Kos,1 km - 2 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,6,17.04
+Sains Data,3.4,Perempuan,161.0,54.0,SMK,3.0,Tidak,Paruh Waktu,Paket Data Seluler,Aktif kegiatan akademik,500k - 1jt,Tinggal besama orangtua,1 km - 2 km,Lainnya,Ibu Rumah Tangga,< 1jt,2,20.83
+Sains Data,3.4,Perempuan,150.0,45.0,SMA,9.0,Ya,Tidak bekerja,Wi-Fi pribadi,Lainnya,500k - 1jt,Kos,> 5 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,5,20.0
+Sains Data,3.4,Perempuan,160.0,42.0,SMA,4.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Asrama,> 5 km,Karyawan Swasta,Ibu Rumah Tangga,3jt - 5jt,4,16.41
+Biologi,3.78,Perempuan,155.0,49.0,SMK,7.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Lainnya,500k - 1jt,Tinggal besama orangtua,> 5 km,Karyawan Swasta,Ibu Rumah Tangga,3jt - 5jt,5,20.4
+Sains Data,3.4,Laki-laki,153.0,49.0,SMA,5.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,"1,5jt - 2jt",Kos,< 1 km,Karyawan Swasta,Ibu Rumah Tangga,5jt - 7jt,5,20.93
+Sains Data,3.4,Laki-laki,181.0,63.0,SMA,9.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Kos,1 km - 2 km,Wiraswata,Karyawan Swasta,7jt - 9jt,5,19.23
+Teknik Biomedis,3.0,Laki-laki,174.0,65.0,SMA,20.0,Tidak,Tidak bekerja,Wi-Fi pribadi,Tidak Aktif,"1jt - 1,5jt",Kos,2 km - 3 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,9,21.47
+Sains Data,3.4,Laki-laki,170.0,58.0,SMA,2.0,Ya,Paruh Waktu,Paket Data Seluler,Tidak Aktif,500k - 1jt,Tinggal besama orangtua,> 5 km,Lainnya,Ibu Rumah Tangga,1jt - 3jt,5,20.07
+Sains Data,3.4,Perempuan,158.0,55.0,SMA,18.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Kos,< 1 km,Wiraswata,PNS,3jt - 5jt,5,22.03
+Teknik Biomedis,3.4,Perempuan,158.0,45.0,SMA,32.0,Tidak,Tidak bekerja,Paket Data Seluler,Aktif kegiatan akademik,500k - 1jt,Kos,< 1 km,Karyawan Swasta,Karyawan Swasta,3jt - 5jt,6,18.03
+Sains Data,3.4,Laki-laki,161.0,54.0,SMA,40.0,Tidak,Tidak bekerja,Fasilitas Kampus,Tidak Aktif,500k - 1jt,Kos,2 km - 3 km,Pensiunan,Lainnya,< 1jt,3,20.83
+Sains Data,3.4,Laki-laki,175.0,65.0,SMA,9.0,Tidak,Tidak bekerja,Paket Data Seluler,Tidak Aktif,500k - 1jt,Kos,1 km - 2 km,Karyawan Swasta,Ibu Rumah Tangga,3jt - 5jt,4,21.22
