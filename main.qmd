@@ -1,7 +1,7 @@
 ---
 title : "Pemodelan Mahasiswa ITERA"
 subtitle : "Evaluasi Berbasis Data dengan Bootstrap, Cross Validation, dan Kriteria Informasi"
-author : "Naufal Aziz Ferdian Tampan Membahana"
+author : "Kelompok 5 RC"
 date : today
 date-format: "D MMMM YYYY"
 lang: id
@@ -67,32 +67,101 @@ set.seed(42)
 
 #| label-baca data
 
-df_clean <- read_csv("dataset_profil_mahasiswa_ITERA_clean.csv")
+df <- read_csv("dataset_profil_mahasiswa_ITERA_clean.csv")
 
-str(df_clean)
+# str(df)
 ```
 
 # Analsis Eskplorasi Data(EDA)
 
 ## Ringakasan Statistik
 
-```{r}
 
 #| label : tabel-ringkasan 
 #| tbl-cap: "Statistik deslriptif variabel numerik"
 
+```{r}
+df |>  
+  select(ipk, jam_belajar_perminggu, tinggi_badan, berat_badan, bmi, jumlah_anggota_keluarga)|>  
+  summary()|>
+  kable(digits = 2) |>
+  kable_styling(bootstrap_options = c("stripped", "hover", "condensed"))
 
-#df_clean <- df_clean > mutate(
-#  bmi = round(berat_badan /(tinggi_badan / 100)^2, 2))
+
+
 ```
 
+## Distribusi IPK
+#| label : fig-disk-ipk
+#| fig-cap : "Distribusi IPK mahasiswa ITERA"
 
 ```{r}
-# df_clean <- select(ipk, jam_belajar_perminggu, tinggi_badan, berat_badan, bmi, jumlah_anggota_keluarga)
+p <- ggplot(df, aes(x = ipk)) + 
+  geom_histogram(
+    bins  = 30, 
+    fill  = "#2196F3", 
+    color = "white", 
+    alpha = 0.85
+  ) +
+  geom_vline(
+    aes(xintercept = mean(ipk)),
+    color = "#E53935", 
+    linetyped = "dashed", 
+    lineweight = 1
+  ) + 
+  annotate(
+   "text",
+    x = mean(df$ipk) + 0.05, 
+    y = Inf,
+    label = paste0("Mean = ", round(mean(df$ipk), 2)),
+    vjust = 2, 
+    hjust = 3, 
+    color = "#E53935", 
+    size = 3.5
+  ) +
 
+  labs( 
+    title = "Distribusi IPK mahasiswa ITERA",
+    x = "IPK", 
+    y = "Frekuensi"
+  )
+print(p)
 
+```
+
+## Distribusi jenis kelamin
+#| label : fig-dist-gender
+#| fig-cap : "Proprosi jenis kelamin mahasiswa"
+
+```{r}
+p <- df |>
+  count(jenis_kelamin) |>
+  mutate(pct = n / sum(n) * 100) |>
+  ggplot(aes(x = reorder(jenis_kelamin, - n), y = n, fill  = jenis_kelamin )) + 
+  geom_col(show.legend = FALSE) + 
+  geom_text(aes(label = paste0(round(pct, 1), "%")),
+    vjust = -0.5, size = 4) +
+  scale_fill_manual(values = c("#2196F3", "#E91E63")) + 
+  labs(title = "Distribusi Jenis Kelamin ",
+    x = "Jenis kelamin", y = "jumlha mahasiswa")
+  
+
+print(p)
+  
+```
+
+## IPK berdasarkan Status Beasiswa
+```{r}
+
+ggplot(df,aes(x=penerima_beasiswa, y = ipk, fill = penerima_beasiswa)) +
+  geom_boxplot(alpha =0.8, show.legend = FALSE) + 
+  geom_jitter(width = 0.15, alpha = 0.3, sizq = 1) +
+  scale_fill_manual(values = c("#FF7043", "#66BB6A")) +
+  labs(title = "Distribusi IPK berdasarkan Status Beasiswa", 
+    x = "penerima_beasiswa", y = "IPK")
+  
 
 
 ```
 
-```
+# Pemodelan Fitur untuk clustering
