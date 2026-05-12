@@ -24,10 +24,9 @@ Keandalan model dievaluasi menggunakan tiga metode utama:
  
 ```
 📦 profil-mahasiswa-itera/
-├── 📄 tugas_besar_profil_mahasiswa_ITERA.qmd   # Dokumen Quarto utama
+├── 📄 main.qmd   # Dokumen Quarto utama
 ├── 📄 cleaning_profil_mahasiswa_ITERA.R         # Skrip pembersihan data
 ├── 📄 install_packages.R                        # Skrip instalasi paket
-├── 📄 .Rprofile                                 # Konfigurasi mirror CRAN
 ├── 📊 Dataset_Tugas_Besar_ADS_2025_-_Karakteristik_Mahasiswa_.csv
 ├── 📊 dataset_profil_mahasiswa_ITERA_clean.csv  # Data hasil cleaning
 └── 📖 README.md
