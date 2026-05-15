@@ -95,8 +95,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#distribusi-ipk" id="toc-distribusi-ipk" class="nav-link" data-scroll-target="#distribusi-ipk"><span class="header-section-number">1.2</span> Distribusi IPK</a></li>
   <li><a href="#distribusi-jenis-kelamin" id="toc-distribusi-jenis-kelamin" class="nav-link" data-scroll-target="#distribusi-jenis-kelamin"><span class="header-section-number">1.3</span> Distribusi jenis kelamin</a></li>
   <li><a href="#ipk-berdasarkan-status-beasiswa" id="toc-ipk-berdasarkan-status-beasiswa" class="nav-link" data-scroll-target="#ipk-berdasarkan-status-beasiswa"><span class="header-section-number">1.4</span> IPK berdasarkan Status Beasiswa</a></li>
+  <li><a href="#pola-jam-belajar-vs-ipk" id="toc-pola-jam-belajar-vs-ipk" class="nav-link" data-scroll-target="#pola-jam-belajar-vs-ipk"><span class="header-section-number">1.5</span> Pola jam belajar vs IPK</a></li>
+  <li><a href="#distribusi-pendapatan-orang-tua" id="toc-distribusi-pendapatan-orang-tua" class="nav-link" data-scroll-target="#distribusi-pendapatan-orang-tua"><span class="header-section-number">1.6</span> Distribusi Pendapatan Orang Tua</a></li>
+  <li><a href="#heatmap-korelasi-variable-numerik" id="toc-heatmap-korelasi-variable-numerik" class="nav-link" data-scroll-target="#heatmap-korelasi-variable-numerik"><span class="header-section-number">1.7</span> Heatmap Korelasi Variable numerik</a></li>
   </ul></li>
-  <li><a href="#pemodelan-fitur-untuk-clustering" id="toc-pemodelan-fitur-untuk-clustering" class="nav-link" data-scroll-target="#pemodelan-fitur-untuk-clustering"><span class="header-section-number">2</span> Pemodelan Fitur untuk clustering</a></li>
+  <li><a href="#pemodelan-fitur-untuk-clustering" id="toc-pemodelan-fitur-untuk-clustering" class="nav-link" data-scroll-target="#pemodelan-fitur-untuk-clustering"><span class="header-section-number">2</span> Pemodelan Fitur untuk clustering</a>
+  <ul class="collapse">
+  <li><a href="#persiaspan-fitur-clustering" id="toc-persiaspan-fitur-clustering" class="nav-link" data-scroll-target="#persiaspan-fitur-clustering"><span class="header-section-number">2.1</span> Persiaspan fitur clustering</a></li>
+  <li><a href="#penentuan-jumlah-kluster-optimal-elbow-shiouelte" id="toc-penentuan-jumlah-kluster-optimal-elbow-shiouelte" class="nav-link" data-scroll-target="#penentuan-jumlah-kluster-optimal-elbow-shiouelte"><span class="header-section-number">2.2</span> Penentuan Jumlah Kluster Optimal (Elbow &amp; Shiouelte)</a></li>
+  <li><a href="#pembangunan-model-k-means" id="toc-pembangunan-model-k-means" class="nav-link" data-scroll-target="#pembangunan-model-k-means"><span class="header-section-number">2.3</span> Pembangunan Model K-Means</a></li>
+  <li><a href="#visualisasi-kluster" id="toc-visualisasi-kluster" class="nav-link" data-scroll-target="#visualisasi-kluster"><span class="header-section-number">2.4</span> Visualisasi Kluster</a></li>
+  </ul></li>
+  <li><a href="#evaluasi-model" id="toc-evaluasi-model" class="nav-link" data-scroll-target="#evaluasi-model"><span class="header-section-number">3</span> Evaluasi Model</a>
+  <ul class="collapse">
+  <li><a href="#boostrap-resampling" id="toc-boostrap-resampling" class="nav-link" data-scroll-target="#boostrap-resampling"><span class="header-section-number">3.1</span> Boostrap Resampling</a></li>
+  </ul></li>
   </ul>
 </nav>
 </div>
@@ -124,7 +137,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Diterbitkan</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">12 Mei 2026</p>
+      <p class="date">15 Mei 2026</p>
     </div>
   </div>
   
@@ -181,7 +194,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h1 data-number="1"><span class="header-section-number">1</span> Analsis Eskplorasi Data(EDA)</h1>
 <section id="ringakasan-statistik" class="level2" data-number="1.1">
 <h2 data-number="1.1" class="anchored" data-anchor-id="ringakasan-statistik"><span class="header-section-number">1.1</span> Ringakasan Statistik</h2>
-<p>#| label : tabel-ringkasan #| tbl-cap: “Statistik deslriptif variabel numerik”</p>
+<p>#| label: tabel-ringkasan #| tbl-cap: “Statistik deslriptif variabel numerik”</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Tampilkan kode</summary>
@@ -266,7 +279,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="distribusi-ipk" class="level2" data-number="1.2">
 <h2 data-number="1.2" class="anchored" data-anchor-id="distribusi-ipk"><span class="header-section-number">1.2</span> Distribusi IPK</h2>
-<p>#| label : fig-disk-ipk #| fig-cap : “Distribusi IPK mahasiswa ITERA”</p>
+<p>#| label: fig-disk-ipk #| fig-cap: “Distribusi IPK mahasiswa ITERA”</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Tampilkan kode</summary>
@@ -312,7 +325,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="distribusi-jenis-kelamin" class="level2" data-number="1.3">
 <h2 data-number="1.3" class="anchored" data-anchor-id="distribusi-jenis-kelamin"><span class="header-section-number">1.3</span> Distribusi jenis kelamin</h2>
-<p>#| label : fig-dist-gender #| fig-cap : “Proprosi jenis kelamin mahasiswa”</p>
+<p>#| label: fig-dist-gender #| fig-cap: “Proprosi jenis kelamin mahasiswa”</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Tampilkan kode</summary>
@@ -360,11 +373,261 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </section>
+<section id="pola-jam-belajar-vs-ipk" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="pola-jam-belajar-vs-ipk"><span class="header-section-number">1.5</span> Pola jam belajar vs IPK</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Tampilkan kode</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df, <span class="fu">aes</span>(<span class="at">x =</span> jam_belajar_perminggu, <span class="at">y =</span> ipk, <span class="at">color =</span> penerima_beasiswa)) <span class="sc">+</span> </span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">alpha =</span> <span class="fl">0.5</span>, <span class="at">size =</span> <span class="dv">2</span>) <span class="sc">+</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>, <span class="at">se =</span> <span class="cn">TRUE</span>) <span class="sc">+</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"#FF7043"</span>, <span class="st">"#42A5F5"</span>)) <span class="sc">+</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Hubungan Jam belajar dengan IPK"</span>, </span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Jam belajar per minggu"</span>, <span class="at">y =</span> <span class="st">"IPK"</span>, <span class="at">color =</span> <span class="st">"Beasiswa"</span>)</span></code></pre></div><button title="Salin ke Papan Klip" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-ipk-jam" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ipk-jam-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="main_files/figure-html/fig-ipk-jam-1.png" class="img-fluid figure-img" width="768">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ipk-jam-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Gambar&nbsp;1: Hubungan jam belajar per minggu dengan IPK
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="distribusi-pendapatan-orang-tua" class="level2" data-number="1.6">
+<h2 data-number="1.6" class="anchored" data-anchor-id="distribusi-pendapatan-orang-tua"><span class="header-section-number">1.6</span> Distribusi Pendapatan Orang Tua</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Tampilkan kode</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Urutan ordinal pendatapan </span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>level_pend <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">" &lt; 1jt"</span>,<span class="st">"1jt - 3jt"</span>,<span class="st">"3jt - 5jt"</span>,<span class="st">"5jt - 7jt"</span>,<span class="st">"7jt - 9jt"</span>,<span class="st">"&gt; 9jt"</span>)</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>df <span class="sc">|&gt;</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(pendapatan_orangtua) <span class="sc">|&gt;</span></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">pendapatan_orangtua =</span> <span class="fu">factor</span>(pendapatan_orangtua, <span class="at">levels =</span> level_pend)) <span class="sc">|&gt;</span></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> pendapatan_orangtua, <span class="at">y =</span> n, <span class="at">fill =</span> pendapatan_orangtua)) <span class="sc">+</span></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="at">show.legend =</span> <span class="cn">FALSE</span>) <span class="sc">+</span> </span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="fu">aes</span>(<span class="at">label =</span> n), <span class="at">vjust =</span> <span class="sc">-</span><span class="fl">0.4</span>, <span class="at">size =</span> <span class="fl">3.5</span>) <span class="sc">+</span></span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_brewer</span>(<span class="at">palette =</span> <span class="st">"Blues"</span>) <span class="sc">+</span></span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Distribusi Pendapatan Orang Tua"</span>,</span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Kategori Pendapatan"</span>, <span class="at">y =</span> <span class="st">"Jumlah"</span>) <span class="sc">+</span></span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">30</span>, <span class="at">hjust =</span> <span class="dv">1</span>))</span></code></pre></div><button title="Salin ke Papan Klip" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-pendapatan" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-pendapatan-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="main_files/figure-html/fig-pendapatan-1.png" class="img-fluid figure-img" width="768">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pendapatan-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Gambar&nbsp;2: Distribusi Pendapatan Orang Tua Mahasiswa
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="heatmap-korelasi-variable-numerik" class="level2" data-number="1.7">
+<h2 data-number="1.7" class="anchored" data-anchor-id="heatmap-korelasi-variable-numerik"><span class="header-section-number">1.7</span> Heatmap Korelasi Variable numerik</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Tampilkan kode</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>num_vars <span class="ot">&lt;-</span> df <span class="sc">|&gt;</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(ipk, jam_belajar_perminggu, tinggi_badan,</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>         berat_badan, bmi, jumlah_anggota_keluarga)</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>cor_mat <span class="ot">&lt;-</span> <span class="fu">cor</span>(num_vars, <span class="at">use =</span> <span class="st">"complete.obs"</span>)</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="fu">corrplot</span>(cor_mat, <span class="at">method =</span> <span class="st">"color"</span>, <span class="at">type =</span> <span class="st">"upper"</span>, </span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>          <span class="at">tl.col =</span> <span class="st">"black"</span>, <span class="at">tl.srt  =</span> <span class="dv">45</span>, </span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>          <span class="at">addCoef.col =</span> <span class="st">"black"</span>, <span class="at">number.cex =</span> <span class="fl">0.75</span>,</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>          <span class="at">col =</span> <span class="fu">colorRampPalette</span>(<span class="fu">c</span>(<span class="st">"#2196F3"</span>, <span class="st">"white"</span>, <span class="st">"#E53935"</span>))(<span class="dv">200</span>))</span></code></pre></div><button title="Salin ke Papan Klip" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-korelasi" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-korelasi-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="main_files/figure-html/fig-korelasi-1.png" class="img-fluid figure-img" width="768">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-korelasi-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Gambar&nbsp;3: Heatmap korelasi variabel numerik
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<hr>
+</section>
 </section>
 <section id="pemodelan-fitur-untuk-clustering" class="level1" data-number="2">
 <h1 data-number="2"><span class="header-section-number">2</span> Pemodelan Fitur untuk clustering</h1>
+<section id="persiaspan-fitur-clustering" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="persiaspan-fitur-clustering"><span class="header-section-number">2.1</span> Persiaspan fitur clustering</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Tampilkan kode</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>fitur_clustering <span class="ot">&lt;-</span> df <span class="sc">|&gt;</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(ipk, jam_belajar_perminggu, bmi, jumlah_anggota_keluarga) <span class="sc">|&gt;</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale</span>() <span class="sc">|&gt;</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">as.data.frame</span>()</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Fitur clustering: "</span>, <span class="fu">names</span>(fitur_clustering), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Salin ke Papan Klip" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Fitur clustering:  ipk jam_belajar_perminggu bmi jumlah_anggota_keluarga </code></pre>
+</div>
+<details class="code-fold">
+<summary>Tampilkan kode</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Dimensi: "</span>, <span class="fu">nrow</span>(fitur_clustering), <span class="st">"x"</span>, <span class="fu">ncol</span>(fitur_clustering), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Salin ke Papan Klip" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Dimensi:  458 x 4 </code></pre>
+</div>
+</div>
+</section>
+<section id="penentuan-jumlah-kluster-optimal-elbow-shiouelte" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="penentuan-jumlah-kluster-optimal-elbow-shiouelte"><span class="header-section-number">2.2</span> Penentuan Jumlah Kluster Optimal (Elbow &amp; Shiouelte)</h2>
+<div class="cell" data-fig_cap="Metode Elbow untuk menentukan jumlah kluster">
+<details class="code-fold">
+<summary>Tampilkan kode</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">fviz_nbclust</span>(fitur_clustering, kmeans, <span class="at">method =</span> <span class="st">"wss"</span>) <span class="sc">+</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Metode Elbow"</span>, </span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>        <span class="at">subtitle =</span> <span class="st">"Cari titik siku sebagai jumlah kluster optimal"</span>,</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>        <span class="at">x =</span> <span class="st">"Jumlah kluster (k)"</span>, <span class="at">y =</span> <span class="st">"Total Within-Cluster SS"</span>)</span></code></pre></div><button title="Salin ke Papan Klip" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="main_files/figure-html/fig_elbow-1.png" class="img-fluid figure-img" width="768"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell" data-fig_cap="Metode Silhouette untuk menentukan jumlah kluster">
+<details class="code-fold">
+<summary>Tampilkan kode</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">fviz_nbclust</span>(fitur_clustering, kmeans, <span class="at">method =</span> <span class="st">"silhouette"</span>) <span class="sc">+</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Metode Silhouette"</span>, </span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>        <span class="at">subtitle =</span> <span class="st">"Nilai tertinggi = jumlah klaster optimal"</span>,</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>        <span class="at">x =</span> <span class="st">"Jumlah kluster (k)"</span>, <span class="at">y =</span> <span class="st">"Average Silhoutte Width"</span>)</span></code></pre></div><button title="Salin ke Papan Klip" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="main_files/figure-html/fig_silhouette-1.png" class="img-fluid figure-img" width="768"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="pembangunan-model-k-means" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="pembangunan-model-k-means"><span class="header-section-number">2.3</span> Pembangunan Model K-Means</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Tampilkan kode</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Sesuiakan k dengan hasil elbow/silhoutte di atas</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>k_optimal <span class="ot">&lt;-</span> <span class="dv">5</span></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>model_kmeans <span class="ot">&lt;-</span> <span class="fu">kmeans</span>(fitur_clustering, <span class="at">centers =</span> k_optimal,</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>                  <span class="at">nstart =</span> <span class="dv">25</span>, <span class="at">iter.max =</span> <span class="dv">100</span>)</span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Tambahkan label klaster ke data asli</span></span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> df<span class="sc">|&gt;</span></span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">klaster =</span> <span class="fu">as.factor</span>(model_kmeans<span class="sc">$</span>cluster))</span>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Distribusi klaster:</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Salin ke Papan Klip" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Distribusi klaster:</code></pre>
+</div>
+<details class="code-fold">
+<summary>Tampilkan kode</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">table</span>(df<span class="sc">$</span>klaster))</span></code></pre></div><button title="Salin ke Papan Klip" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+  1   2   3   4   5 
+  7 201  24 184  42 </code></pre>
+</div>
+</div>
+</section>
+<section id="visualisasi-kluster" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="visualisasi-kluster"><span class="header-section-number">2.4</span> Visualisasi Kluster</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Tampilkan kode</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="fu">fviz_cluster</span>(model_kmeans, <span class="at">data =</span> fitur_clustering,</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>             <span class="at">geom =</span> <span class="st">"point"</span>, <span class="at">ellipse.type =</span> <span class="st">"convex"</span>,</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>             <span class="at">palette =</span> <span class="fu">c</span>(<span class="st">"#2196F3"</span>, <span class="st">"#E53935"</span>, <span class="st">"#4CAF50"</span>, <span class="st">"#4ACE22"</span>, <span class="st">"#AFF12A"</span>),</span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>             <span class="at">ggtheme =</span> <span class="fu">theme_minimal</span>()) <span class="sc">+</span></span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Klaster Profil Mahasiswa ITERA"</span>,</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>       <span class="at">subtitle =</span> <span class="fu">paste</span>(<span class="st">"K-Means dengan k ="</span>, k_optimal))</span></code></pre></div><button title="Salin ke Papan Klip" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-klaster-pca" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-klaster-pca-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="main_files/figure-html/fig-klaster-pca-1.png" class="img-fluid figure-img" width="768">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-klaster-pca-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Gambar&nbsp;4: Visualisasi klaster mahaiswa (PCA 2 dimensi)
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="evaluasi-model" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Evaluasi Model</h1>
+<section id="boostrap-resampling" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="boostrap-resampling"><span class="header-section-number">3.1</span> Boostrap Resampling</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Tampilkan kode</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Statistik yang di-boostrap: rata-rata IPK per klaster</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>stat_ipk_klaster <span class="ot">&lt;-</span> <span class="cf">function</span>(data, indicies) {</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>  d <span class="ot">&lt;-</span> data[indicies, ]</span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tapply</span>(d<span class="sc">$</span>ipk, d<span class="sc">$</span>klaster, mean)</span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a>boot_hasil <span class="ot">&lt;-</span> <span class="fu">boot</span>(</span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">data =</span> df,</span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a>  <span class="at">statistic =</span> stat_ipk_klaster,</span>
+<span id="cb21-11"><a href="#cb21-11" aria-hidden="true" tabindex="-1"></a>  <span class="at">R =</span> <span class="dv">1000</span></span>
+<span id="cb21-12"><a href="#cb21-12" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb21-13"><a href="#cb21-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-14"><a href="#cb21-14" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"=== Hasil Bootstrap (1000 iterasi) ===</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Salin ke Papan Klip" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>=== Hasil Bootstrap (1000 iterasi) ===</code></pre>
+</div>
+<details class="code-fold">
+<summary>Tampilkan kode</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Estimasi rata-rata IPK perklaster: </span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Salin ke Papan Klip" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Estimasi rata-rata IPK perklaster: </code></pre>
+</div>
+<details class="code-fold">
+<summary>Tampilkan kode</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(boot_hasil<span class="sc">$</span>t0)</span></code></pre></div><button title="Salin ke Papan Klip" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>       1        2        3        4        5 
+0.200000 3.390846 3.300833 3.374239 3.454048 </code></pre>
+</div>
+</div>
 <!-- -->
 
+</section>
 </section>
 
 </main>
@@ -820,170 +1083,340 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
   });
   </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Kode Sumber</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="an">title :</span><span class="co"> "Pemodelan Mahasiswa ITERA"</span></span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="an">subtitle :</span><span class="co"> "Evaluasi Berbasis Data dengan Bootstrap, Cross Validation, dan Kriteria Informasi"</span></span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="an">author :</span><span class="co"> "Kelompok 5 RC"</span></span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="an">date :</span><span class="co"> today</span></span>
-<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="an">date-format:</span><span class="co"> "D MMMM YYYY"</span></span>
-<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="an">lang:</span><span class="co"> id</span></span>
-<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span></span>
-<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a><span class="co">  html:</span></span>
-<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a><span class="co">    toc: true</span></span>
-<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a><span class="co">    toc-title: "Daftar Isi"</span></span>
-<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a><span class="co">    toc-depth: 3</span></span>
-<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a><span class="co">    toc-location: left</span></span>
-<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a><span class="co">    number-sections: true</span></span>
-<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a><span class="co">    theme: cosmo</span></span>
-<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a><span class="co">    highlight-style: github</span></span>
-<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a><span class="co">    code-fold: true</span></span>
-<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a><span class="co">    code-summary: "Tampilkan kode"</span></span>
-<span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a><span class="co">    code-tools: true</span></span>
-<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a><span class="co">    fig-width: 8</span></span>
-<span id="cb7-23"><a href="#cb7-23" aria-hidden="true" tabindex="-1"></a><span class="co">    fig-height: 5</span></span>
-<span id="cb7-24"><a href="#cb7-24" aria-hidden="true" tabindex="-1"></a><span class="co">    fig-align: center</span></span>
-<span id="cb7-25"><a href="#cb7-25" aria-hidden="true" tabindex="-1"></a><span class="co">    df-print: paged</span></span>
-<span id="cb7-26"><a href="#cb7-26" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-27"><a href="#cb7-27" aria-hidden="true" tabindex="-1"></a><span class="an">execute:</span></span>
-<span id="cb7-28"><a href="#cb7-28" aria-hidden="true" tabindex="-1"></a><span class="co">  echo: true</span></span>
-<span id="cb7-29"><a href="#cb7-29" aria-hidden="true" tabindex="-1"></a><span class="co">  warning: false</span></span>
-<span id="cb7-30"><a href="#cb7-30" aria-hidden="true" tabindex="-1"></a><span class="co">  message: false</span></span>
-<span id="cb7-31"><a href="#cb7-31" aria-hidden="true" tabindex="-1"></a><span class="co">  cache: false</span></span>
-<span id="cb7-32"><a href="#cb7-32" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb7-33"><a href="#cb7-33" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-34"><a href="#cb7-34" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-37"><a href="#cb7-37" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb7-38"><a href="#cb7-38" aria-hidden="true" tabindex="-1"></a><span class="co"># ── Load paket ───────────────────────────────────────────────</span></span>
-<span id="cb7-39"><a href="#cb7-39" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb7-40"><a href="#cb7-40" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(stringr)</span>
-<span id="cb7-41"><a href="#cb7-41" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(boot)</span>
-<span id="cb7-42"><a href="#cb7-42" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(caret)</span>
-<span id="cb7-43"><a href="#cb7-43" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(cluster)</span>
-<span id="cb7-44"><a href="#cb7-44" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(factoextra)</span>
-<span id="cb7-45"><a href="#cb7-45" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb7-46"><a href="#cb7-46" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(knitr)</span>
-<span id="cb7-47"><a href="#cb7-47" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(kableExtra)</span>
-<span id="cb7-48"><a href="#cb7-48" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(GGally)</span>
-<span id="cb7-49"><a href="#cb7-49" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(corrplot)</span>
-<span id="cb7-50"><a href="#cb7-50" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(scales)</span>
-<span id="cb7-51"><a href="#cb7-51" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gridExtra)</span>
-<span id="cb7-52"><a href="#cb7-52" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-53"><a href="#cb7-53" aria-hidden="true" tabindex="-1"></a><span class="co"># ── Tema ggplot2 global ──────────────────────────────────────</span></span>
-<span id="cb7-54"><a href="#cb7-54" aria-hidden="true" tabindex="-1"></a><span class="fu">theme_set</span>(</span>
-<span id="cb7-55"><a href="#cb7-55" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>(<span class="at">base_size =</span> <span class="dv">12</span>) <span class="sc">+</span></span>
-<span id="cb7-56"><a href="#cb7-56" aria-hidden="true" tabindex="-1"></a>    <span class="fu">theme</span>(</span>
-<span id="cb7-57"><a href="#cb7-57" aria-hidden="true" tabindex="-1"></a>      <span class="at">plot.title    =</span> <span class="fu">element_text</span>(<span class="at">face =</span> <span class="st">"bold"</span>, <span class="at">size =</span> <span class="dv">14</span>),</span>
-<span id="cb7-58"><a href="#cb7-58" aria-hidden="true" tabindex="-1"></a>      <span class="at">plot.subtitle =</span> <span class="fu">element_text</span>(<span class="at">color =</span> <span class="st">"grey40"</span>),</span>
-<span id="cb7-59"><a href="#cb7-59" aria-hidden="true" tabindex="-1"></a>      <span class="at">legend.position =</span> <span class="st">"bottom"</span></span>
-<span id="cb7-60"><a href="#cb7-60" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb7-61"><a href="#cb7-61" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb7-62"><a href="#cb7-62" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-63"><a href="#cb7-63" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">42</span>)</span>
-<span id="cb7-64"><a href="#cb7-64" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb7-65"><a href="#cb7-65" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-66"><a href="#cb7-66" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-69"><a href="#cb7-69" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb7-70"><a href="#cb7-70" aria-hidden="true" tabindex="-1"></a><span class="co">#| label-baca data</span></span>
-<span id="cb7-71"><a href="#cb7-71" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-72"><a href="#cb7-72" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"dataset_profil_mahasiswa_ITERA_clean.csv"</span>)</span>
-<span id="cb7-73"><a href="#cb7-73" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-74"><a href="#cb7-74" aria-hidden="true" tabindex="-1"></a><span class="co"># str(df)</span></span>
-<span id="cb7-75"><a href="#cb7-75" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb7-76"><a href="#cb7-76" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-77"><a href="#cb7-77" aria-hidden="true" tabindex="-1"></a><span class="fu"># Analsis Eskplorasi Data(EDA)</span></span>
-<span id="cb7-78"><a href="#cb7-78" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-79"><a href="#cb7-79" aria-hidden="true" tabindex="-1"></a><span class="fu">## Ringakasan Statistik</span></span>
-<span id="cb7-80"><a href="#cb7-80" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-81"><a href="#cb7-81" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-82"><a href="#cb7-82" aria-hidden="true" tabindex="-1"></a>#| label : tabel-ringkasan </span>
-<span id="cb7-83"><a href="#cb7-83" aria-hidden="true" tabindex="-1"></a>#| tbl-cap: "Statistik deslriptif variabel numerik"</span>
-<span id="cb7-84"><a href="#cb7-84" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-87"><a href="#cb7-87" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb7-88"><a href="#cb7-88" aria-hidden="true" tabindex="-1"></a>df <span class="sc">|&gt;</span>  </span>
-<span id="cb7-89"><a href="#cb7-89" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(ipk, jam_belajar_perminggu, tinggi_badan, berat_badan, bmi, jumlah_anggota_keluarga)<span class="sc">|&gt;</span>  </span>
-<span id="cb7-90"><a href="#cb7-90" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summary</span>()<span class="sc">|&gt;</span></span>
-<span id="cb7-91"><a href="#cb7-91" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable</span>(<span class="at">digits =</span> <span class="dv">2</span>) <span class="sc">|&gt;</span></span>
-<span id="cb7-92"><a href="#cb7-92" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable_styling</span>(<span class="at">bootstrap_options =</span> <span class="fu">c</span>(<span class="st">"stripped"</span>, <span class="st">"hover"</span>, <span class="st">"condensed"</span>))</span>
-<span id="cb7-93"><a href="#cb7-93" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-94"><a href="#cb7-94" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-95"><a href="#cb7-95" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-96"><a href="#cb7-96" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb7-97"><a href="#cb7-97" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-98"><a href="#cb7-98" aria-hidden="true" tabindex="-1"></a><span class="fu">## Distribusi IPK</span></span>
-<span id="cb7-99"><a href="#cb7-99" aria-hidden="true" tabindex="-1"></a>#| label : fig-disk-ipk</span>
-<span id="cb7-100"><a href="#cb7-100" aria-hidden="true" tabindex="-1"></a>#| fig-cap : "Distribusi IPK mahasiswa ITERA"</span>
-<span id="cb7-101"><a href="#cb7-101" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-104"><a href="#cb7-104" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb7-105"><a href="#cb7-105" aria-hidden="true" tabindex="-1"></a>p <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(df, <span class="fu">aes</span>(<span class="at">x =</span> ipk)) <span class="sc">+</span> </span>
-<span id="cb7-106"><a href="#cb7-106" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(</span>
-<span id="cb7-107"><a href="#cb7-107" aria-hidden="true" tabindex="-1"></a>    <span class="at">bins  =</span> <span class="dv">30</span>, </span>
-<span id="cb7-108"><a href="#cb7-108" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill  =</span> <span class="st">"#2196F3"</span>, </span>
-<span id="cb7-109"><a href="#cb7-109" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">"white"</span>, </span>
-<span id="cb7-110"><a href="#cb7-110" aria-hidden="true" tabindex="-1"></a>    <span class="at">alpha =</span> <span class="fl">0.85</span></span>
-<span id="cb7-111"><a href="#cb7-111" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
-<span id="cb7-112"><a href="#cb7-112" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_vline</span>(</span>
-<span id="cb7-113"><a href="#cb7-113" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(<span class="at">xintercept =</span> <span class="fu">mean</span>(ipk)),</span>
-<span id="cb7-114"><a href="#cb7-114" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">"#E53935"</span>, </span>
-<span id="cb7-115"><a href="#cb7-115" aria-hidden="true" tabindex="-1"></a>    <span class="at">linetyped =</span> <span class="st">"dashed"</span>, </span>
-<span id="cb7-116"><a href="#cb7-116" aria-hidden="true" tabindex="-1"></a>    <span class="at">lineweight =</span> <span class="dv">1</span></span>
-<span id="cb7-117"><a href="#cb7-117" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span> </span>
-<span id="cb7-118"><a href="#cb7-118" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotate</span>(</span>
-<span id="cb7-119"><a href="#cb7-119" aria-hidden="true" tabindex="-1"></a>   <span class="st">"text"</span>,</span>
-<span id="cb7-120"><a href="#cb7-120" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="fu">mean</span>(df<span class="sc">$</span>ipk) <span class="sc">+</span> <span class="fl">0.05</span>, </span>
-<span id="cb7-121"><a href="#cb7-121" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="cn">Inf</span>,</span>
-<span id="cb7-122"><a href="#cb7-122" aria-hidden="true" tabindex="-1"></a>    <span class="at">label =</span> <span class="fu">paste0</span>(<span class="st">"Mean = "</span>, <span class="fu">round</span>(<span class="fu">mean</span>(df<span class="sc">$</span>ipk), <span class="dv">2</span>)),</span>
-<span id="cb7-123"><a href="#cb7-123" aria-hidden="true" tabindex="-1"></a>    <span class="at">vjust =</span> <span class="dv">2</span>, </span>
-<span id="cb7-124"><a href="#cb7-124" aria-hidden="true" tabindex="-1"></a>    <span class="at">hjust =</span> <span class="dv">3</span>, </span>
-<span id="cb7-125"><a href="#cb7-125" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">"#E53935"</span>, </span>
-<span id="cb7-126"><a href="#cb7-126" aria-hidden="true" tabindex="-1"></a>    <span class="at">size =</span> <span class="fl">3.5</span></span>
-<span id="cb7-127"><a href="#cb7-127" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
-<span id="cb7-128"><a href="#cb7-128" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-129"><a href="#cb7-129" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>( </span>
-<span id="cb7-130"><a href="#cb7-130" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Distribusi IPK mahasiswa ITERA"</span>,</span>
-<span id="cb7-131"><a href="#cb7-131" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"IPK"</span>, </span>
-<span id="cb7-132"><a href="#cb7-132" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Frekuensi"</span></span>
-<span id="cb7-133"><a href="#cb7-133" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb7-134"><a href="#cb7-134" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(p)</span>
-<span id="cb7-135"><a href="#cb7-135" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-136"><a href="#cb7-136" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb7-137"><a href="#cb7-137" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-138"><a href="#cb7-138" aria-hidden="true" tabindex="-1"></a><span class="fu">## Distribusi jenis kelamin</span></span>
-<span id="cb7-139"><a href="#cb7-139" aria-hidden="true" tabindex="-1"></a>#| label : fig-dist-gender</span>
-<span id="cb7-140"><a href="#cb7-140" aria-hidden="true" tabindex="-1"></a>#| fig-cap : "Proprosi jenis kelamin mahasiswa"</span>
-<span id="cb7-141"><a href="#cb7-141" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-144"><a href="#cb7-144" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb7-145"><a href="#cb7-145" aria-hidden="true" tabindex="-1"></a>p <span class="ot">&lt;-</span> df <span class="sc">|&gt;</span></span>
-<span id="cb7-146"><a href="#cb7-146" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(jenis_kelamin) <span class="sc">|&gt;</span></span>
-<span id="cb7-147"><a href="#cb7-147" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">pct =</span> n <span class="sc">/</span> <span class="fu">sum</span>(n) <span class="sc">*</span> <span class="dv">100</span>) <span class="sc">|&gt;</span></span>
-<span id="cb7-148"><a href="#cb7-148" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">reorder</span>(jenis_kelamin, <span class="sc">-</span> n), <span class="at">y =</span> n, <span class="at">fill  =</span> jenis_kelamin )) <span class="sc">+</span> </span>
-<span id="cb7-149"><a href="#cb7-149" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="at">show.legend =</span> <span class="cn">FALSE</span>) <span class="sc">+</span> </span>
-<span id="cb7-150"><a href="#cb7-150" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="fu">aes</span>(<span class="at">label =</span> <span class="fu">paste0</span>(<span class="fu">round</span>(pct, <span class="dv">1</span>), <span class="st">"%"</span>)),</span>
-<span id="cb7-151"><a href="#cb7-151" aria-hidden="true" tabindex="-1"></a>    <span class="at">vjust =</span> <span class="sc">-</span><span class="fl">0.5</span>, <span class="at">size =</span> <span class="dv">4</span>) <span class="sc">+</span></span>
-<span id="cb7-152"><a href="#cb7-152" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"#2196F3"</span>, <span class="st">"#E91E63"</span>)) <span class="sc">+</span> </span>
-<span id="cb7-153"><a href="#cb7-153" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Distribusi Jenis Kelamin "</span>,</span>
-<span id="cb7-154"><a href="#cb7-154" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Jenis kelamin"</span>, <span class="at">y =</span> <span class="st">"jumlha mahasiswa"</span>)</span>
-<span id="cb7-155"><a href="#cb7-155" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb7-156"><a href="#cb7-156" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-157"><a href="#cb7-157" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(p)</span>
-<span id="cb7-158"><a href="#cb7-158" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb7-159"><a href="#cb7-159" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb7-160"><a href="#cb7-160" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-161"><a href="#cb7-161" aria-hidden="true" tabindex="-1"></a><span class="fu">## IPK berdasarkan Status Beasiswa</span></span>
-<span id="cb7-164"><a href="#cb7-164" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb7-165"><a href="#cb7-165" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df,<span class="fu">aes</span>(<span class="at">x=</span>penerima_beasiswa, <span class="at">y =</span> ipk, <span class="at">fill =</span> penerima_beasiswa)) <span class="sc">+</span></span>
-<span id="cb7-166"><a href="#cb7-166" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>(<span class="at">alpha =</span><span class="fl">0.8</span>, <span class="at">show.legend =</span> <span class="cn">FALSE</span>) <span class="sc">+</span> </span>
-<span id="cb7-167"><a href="#cb7-167" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_jitter</span>(<span class="at">width =</span> <span class="fl">0.15</span>, <span class="at">alpha =</span> <span class="fl">0.3</span>, <span class="at">sizq =</span> <span class="dv">1</span>) <span class="sc">+</span></span>
-<span id="cb7-168"><a href="#cb7-168" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"#FF7043"</span>, <span class="st">"#66BB6A"</span>)) <span class="sc">+</span></span>
-<span id="cb7-169"><a href="#cb7-169" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Distribusi IPK berdasarkan Status Beasiswa"</span>, </span>
-<span id="cb7-170"><a href="#cb7-170" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"penerima_beasiswa"</span>, <span class="at">y =</span> <span class="st">"IPK"</span>)</span>
-<span id="cb7-171"><a href="#cb7-171" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb7-172"><a href="#cb7-172" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-173"><a href="#cb7-173" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-174"><a href="#cb7-174" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb7-175"><a href="#cb7-175" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-176"><a href="#cb7-176" aria-hidden="true" tabindex="-1"></a><span class="fu"># Pemodelan Fitur untuk clustering</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb27" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a><span class="an">title :</span><span class="co"> "Pemodelan Mahasiswa ITERA"</span></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a><span class="an">subtitle :</span><span class="co"> "Evaluasi Berbasis Data dengan Bootstrap, Cross Validation, dan Kriteria Informasi"</span></span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a><span class="an">author :</span><span class="co"> "Kelompok 5 RC"</span></span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a><span class="an">date :</span><span class="co"> today</span></span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a><span class="an">date-format:</span><span class="co"> "D MMMM YYYY"</span></span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a><span class="an">lang:</span><span class="co"> id</span></span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-9"><a href="#cb27-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-10"><a href="#cb27-10" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span></span>
+<span id="cb27-11"><a href="#cb27-11" aria-hidden="true" tabindex="-1"></a><span class="co">  html:</span></span>
+<span id="cb27-12"><a href="#cb27-12" aria-hidden="true" tabindex="-1"></a><span class="co">    toc: true</span></span>
+<span id="cb27-13"><a href="#cb27-13" aria-hidden="true" tabindex="-1"></a><span class="co">    toc-title: "Daftar Isi"</span></span>
+<span id="cb27-14"><a href="#cb27-14" aria-hidden="true" tabindex="-1"></a><span class="co">    toc-depth: 3</span></span>
+<span id="cb27-15"><a href="#cb27-15" aria-hidden="true" tabindex="-1"></a><span class="co">    toc-location: left</span></span>
+<span id="cb27-16"><a href="#cb27-16" aria-hidden="true" tabindex="-1"></a><span class="co">    number-sections: true</span></span>
+<span id="cb27-17"><a href="#cb27-17" aria-hidden="true" tabindex="-1"></a><span class="co">    theme: cosmo</span></span>
+<span id="cb27-18"><a href="#cb27-18" aria-hidden="true" tabindex="-1"></a><span class="co">    highlight-style: github</span></span>
+<span id="cb27-19"><a href="#cb27-19" aria-hidden="true" tabindex="-1"></a><span class="co">    code-fold: true</span></span>
+<span id="cb27-20"><a href="#cb27-20" aria-hidden="true" tabindex="-1"></a><span class="co">    code-summary: "Tampilkan kode"</span></span>
+<span id="cb27-21"><a href="#cb27-21" aria-hidden="true" tabindex="-1"></a><span class="co">    code-tools: true</span></span>
+<span id="cb27-22"><a href="#cb27-22" aria-hidden="true" tabindex="-1"></a><span class="co">    fig-width: 8</span></span>
+<span id="cb27-23"><a href="#cb27-23" aria-hidden="true" tabindex="-1"></a><span class="co">    fig-height: 5</span></span>
+<span id="cb27-24"><a href="#cb27-24" aria-hidden="true" tabindex="-1"></a><span class="co">    fig-align: center</span></span>
+<span id="cb27-25"><a href="#cb27-25" aria-hidden="true" tabindex="-1"></a><span class="co">    df-print: paged</span></span>
+<span id="cb27-26"><a href="#cb27-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-27"><a href="#cb27-27" aria-hidden="true" tabindex="-1"></a><span class="an">execute:</span></span>
+<span id="cb27-28"><a href="#cb27-28" aria-hidden="true" tabindex="-1"></a><span class="co">  echo: true</span></span>
+<span id="cb27-29"><a href="#cb27-29" aria-hidden="true" tabindex="-1"></a><span class="co">  warning: false</span></span>
+<span id="cb27-30"><a href="#cb27-30" aria-hidden="true" tabindex="-1"></a><span class="co">  message: false</span></span>
+<span id="cb27-31"><a href="#cb27-31" aria-hidden="true" tabindex="-1"></a><span class="co">  cache: false</span></span>
+<span id="cb27-32"><a href="#cb27-32" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb27-33"><a href="#cb27-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-34"><a href="#cb27-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-37"><a href="#cb27-37" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb27-38"><a href="#cb27-38" aria-hidden="true" tabindex="-1"></a><span class="co"># ── Load paket ───────────────────────────────────────────────</span></span>
+<span id="cb27-39"><a href="#cb27-39" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb27-40"><a href="#cb27-40" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(stringr)</span>
+<span id="cb27-41"><a href="#cb27-41" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(boot)</span>
+<span id="cb27-42"><a href="#cb27-42" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(caret)</span>
+<span id="cb27-43"><a href="#cb27-43" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(cluster)</span>
+<span id="cb27-44"><a href="#cb27-44" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(factoextra)</span>
+<span id="cb27-45"><a href="#cb27-45" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb27-46"><a href="#cb27-46" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(knitr)</span>
+<span id="cb27-47"><a href="#cb27-47" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(kableExtra)</span>
+<span id="cb27-48"><a href="#cb27-48" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(GGally)</span>
+<span id="cb27-49"><a href="#cb27-49" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(corrplot)</span>
+<span id="cb27-50"><a href="#cb27-50" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(scales)</span>
+<span id="cb27-51"><a href="#cb27-51" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gridExtra)</span>
+<span id="cb27-52"><a href="#cb27-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-53"><a href="#cb27-53" aria-hidden="true" tabindex="-1"></a><span class="co"># ── Tema ggplot2 global ──────────────────────────────────────</span></span>
+<span id="cb27-54"><a href="#cb27-54" aria-hidden="true" tabindex="-1"></a><span class="fu">theme_set</span>(</span>
+<span id="cb27-55"><a href="#cb27-55" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>(<span class="at">base_size =</span> <span class="dv">12</span>) <span class="sc">+</span></span>
+<span id="cb27-56"><a href="#cb27-56" aria-hidden="true" tabindex="-1"></a>    <span class="fu">theme</span>(</span>
+<span id="cb27-57"><a href="#cb27-57" aria-hidden="true" tabindex="-1"></a>      <span class="at">plot.title    =</span> <span class="fu">element_text</span>(<span class="at">face =</span> <span class="st">"bold"</span>, <span class="at">size =</span> <span class="dv">14</span>),</span>
+<span id="cb27-58"><a href="#cb27-58" aria-hidden="true" tabindex="-1"></a>      <span class="at">plot.subtitle =</span> <span class="fu">element_text</span>(<span class="at">color =</span> <span class="st">"grey40"</span>),</span>
+<span id="cb27-59"><a href="#cb27-59" aria-hidden="true" tabindex="-1"></a>      <span class="at">legend.position =</span> <span class="st">"bottom"</span></span>
+<span id="cb27-60"><a href="#cb27-60" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb27-61"><a href="#cb27-61" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb27-62"><a href="#cb27-62" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-63"><a href="#cb27-63" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">42</span>)</span>
+<span id="cb27-64"><a href="#cb27-64" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb27-65"><a href="#cb27-65" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-66"><a href="#cb27-66" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-69"><a href="#cb27-69" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb27-70"><a href="#cb27-70" aria-hidden="true" tabindex="-1"></a><span class="co">#| label-baca data</span></span>
+<span id="cb27-71"><a href="#cb27-71" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-72"><a href="#cb27-72" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"dataset_profil_mahasiswa_ITERA_clean.csv"</span>)</span>
+<span id="cb27-73"><a href="#cb27-73" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-74"><a href="#cb27-74" aria-hidden="true" tabindex="-1"></a><span class="co"># str(df)</span></span>
+<span id="cb27-75"><a href="#cb27-75" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb27-76"><a href="#cb27-76" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-77"><a href="#cb27-77" aria-hidden="true" tabindex="-1"></a><span class="fu"># Analsis Eskplorasi Data(EDA)</span></span>
+<span id="cb27-78"><a href="#cb27-78" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-79"><a href="#cb27-79" aria-hidden="true" tabindex="-1"></a><span class="fu">## Ringakasan Statistik</span></span>
+<span id="cb27-80"><a href="#cb27-80" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-81"><a href="#cb27-81" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-82"><a href="#cb27-82" aria-hidden="true" tabindex="-1"></a>#| label: tabel-ringkasan </span>
+<span id="cb27-83"><a href="#cb27-83" aria-hidden="true" tabindex="-1"></a>#| tbl-cap: "Statistik deslriptif variabel numerik"</span>
+<span id="cb27-84"><a href="#cb27-84" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-87"><a href="#cb27-87" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb27-88"><a href="#cb27-88" aria-hidden="true" tabindex="-1"></a>df <span class="sc">|&gt;</span>  </span>
+<span id="cb27-89"><a href="#cb27-89" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(ipk, jam_belajar_perminggu, tinggi_badan, berat_badan, bmi, jumlah_anggota_keluarga)<span class="sc">|&gt;</span>  </span>
+<span id="cb27-90"><a href="#cb27-90" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summary</span>()<span class="sc">|&gt;</span></span>
+<span id="cb27-91"><a href="#cb27-91" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable</span>(<span class="at">digits =</span> <span class="dv">2</span>) <span class="sc">|&gt;</span></span>
+<span id="cb27-92"><a href="#cb27-92" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable_styling</span>(<span class="at">bootstrap_options =</span> <span class="fu">c</span>(<span class="st">"stripped"</span>, <span class="st">"hover"</span>, <span class="st">"condensed"</span>))</span>
+<span id="cb27-93"><a href="#cb27-93" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-94"><a href="#cb27-94" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-95"><a href="#cb27-95" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-96"><a href="#cb27-96" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb27-97"><a href="#cb27-97" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-98"><a href="#cb27-98" aria-hidden="true" tabindex="-1"></a><span class="fu">## Distribusi IPK</span></span>
+<span id="cb27-99"><a href="#cb27-99" aria-hidden="true" tabindex="-1"></a>#| label: fig-disk-ipk</span>
+<span id="cb27-100"><a href="#cb27-100" aria-hidden="true" tabindex="-1"></a>#| fig-cap: "Distribusi IPK mahasiswa ITERA"</span>
+<span id="cb27-101"><a href="#cb27-101" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-104"><a href="#cb27-104" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb27-105"><a href="#cb27-105" aria-hidden="true" tabindex="-1"></a>p <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(df, <span class="fu">aes</span>(<span class="at">x =</span> ipk)) <span class="sc">+</span> </span>
+<span id="cb27-106"><a href="#cb27-106" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(</span>
+<span id="cb27-107"><a href="#cb27-107" aria-hidden="true" tabindex="-1"></a>    <span class="at">bins  =</span> <span class="dv">30</span>, </span>
+<span id="cb27-108"><a href="#cb27-108" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill  =</span> <span class="st">"#2196F3"</span>, </span>
+<span id="cb27-109"><a href="#cb27-109" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">"white"</span>, </span>
+<span id="cb27-110"><a href="#cb27-110" aria-hidden="true" tabindex="-1"></a>    <span class="at">alpha =</span> <span class="fl">0.85</span></span>
+<span id="cb27-111"><a href="#cb27-111" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb27-112"><a href="#cb27-112" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_vline</span>(</span>
+<span id="cb27-113"><a href="#cb27-113" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(<span class="at">xintercept =</span> <span class="fu">mean</span>(ipk)),</span>
+<span id="cb27-114"><a href="#cb27-114" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">"#E53935"</span>, </span>
+<span id="cb27-115"><a href="#cb27-115" aria-hidden="true" tabindex="-1"></a>    <span class="at">linetyped =</span> <span class="st">"dashed"</span>, </span>
+<span id="cb27-116"><a href="#cb27-116" aria-hidden="true" tabindex="-1"></a>    <span class="at">lineweight =</span> <span class="dv">1</span></span>
+<span id="cb27-117"><a href="#cb27-117" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span> </span>
+<span id="cb27-118"><a href="#cb27-118" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotate</span>(</span>
+<span id="cb27-119"><a href="#cb27-119" aria-hidden="true" tabindex="-1"></a>   <span class="st">"text"</span>,</span>
+<span id="cb27-120"><a href="#cb27-120" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="fu">mean</span>(df<span class="sc">$</span>ipk) <span class="sc">+</span> <span class="fl">0.05</span>, </span>
+<span id="cb27-121"><a href="#cb27-121" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="cn">Inf</span>,</span>
+<span id="cb27-122"><a href="#cb27-122" aria-hidden="true" tabindex="-1"></a>    <span class="at">label =</span> <span class="fu">paste0</span>(<span class="st">"Mean = "</span>, <span class="fu">round</span>(<span class="fu">mean</span>(df<span class="sc">$</span>ipk), <span class="dv">2</span>)),</span>
+<span id="cb27-123"><a href="#cb27-123" aria-hidden="true" tabindex="-1"></a>    <span class="at">vjust =</span> <span class="dv">2</span>, </span>
+<span id="cb27-124"><a href="#cb27-124" aria-hidden="true" tabindex="-1"></a>    <span class="at">hjust =</span> <span class="dv">3</span>, </span>
+<span id="cb27-125"><a href="#cb27-125" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">"#E53935"</span>, </span>
+<span id="cb27-126"><a href="#cb27-126" aria-hidden="true" tabindex="-1"></a>    <span class="at">size =</span> <span class="fl">3.5</span></span>
+<span id="cb27-127"><a href="#cb27-127" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb27-128"><a href="#cb27-128" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-129"><a href="#cb27-129" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>( </span>
+<span id="cb27-130"><a href="#cb27-130" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Distribusi IPK mahasiswa ITERA"</span>,</span>
+<span id="cb27-131"><a href="#cb27-131" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"IPK"</span>, </span>
+<span id="cb27-132"><a href="#cb27-132" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Frekuensi"</span></span>
+<span id="cb27-133"><a href="#cb27-133" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb27-134"><a href="#cb27-134" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(p)</span>
+<span id="cb27-135"><a href="#cb27-135" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-136"><a href="#cb27-136" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb27-137"><a href="#cb27-137" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-138"><a href="#cb27-138" aria-hidden="true" tabindex="-1"></a><span class="fu">## Distribusi jenis kelamin</span></span>
+<span id="cb27-139"><a href="#cb27-139" aria-hidden="true" tabindex="-1"></a>#| label: fig-dist-gender</span>
+<span id="cb27-140"><a href="#cb27-140" aria-hidden="true" tabindex="-1"></a>#| fig-cap: "Proprosi jenis kelamin mahasiswa"</span>
+<span id="cb27-141"><a href="#cb27-141" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-144"><a href="#cb27-144" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb27-145"><a href="#cb27-145" aria-hidden="true" tabindex="-1"></a>p <span class="ot">&lt;-</span> df <span class="sc">|&gt;</span></span>
+<span id="cb27-146"><a href="#cb27-146" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(jenis_kelamin) <span class="sc">|&gt;</span></span>
+<span id="cb27-147"><a href="#cb27-147" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">pct =</span> n <span class="sc">/</span> <span class="fu">sum</span>(n) <span class="sc">*</span> <span class="dv">100</span>) <span class="sc">|&gt;</span></span>
+<span id="cb27-148"><a href="#cb27-148" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">reorder</span>(jenis_kelamin, <span class="sc">-</span> n), <span class="at">y =</span> n, <span class="at">fill  =</span> jenis_kelamin )) <span class="sc">+</span> </span>
+<span id="cb27-149"><a href="#cb27-149" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="at">show.legend =</span> <span class="cn">FALSE</span>) <span class="sc">+</span> </span>
+<span id="cb27-150"><a href="#cb27-150" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="fu">aes</span>(<span class="at">label =</span> <span class="fu">paste0</span>(<span class="fu">round</span>(pct, <span class="dv">1</span>), <span class="st">"%"</span>)),</span>
+<span id="cb27-151"><a href="#cb27-151" aria-hidden="true" tabindex="-1"></a>    <span class="at">vjust =</span> <span class="sc">-</span><span class="fl">0.5</span>, <span class="at">size =</span> <span class="dv">4</span>) <span class="sc">+</span></span>
+<span id="cb27-152"><a href="#cb27-152" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"#2196F3"</span>, <span class="st">"#E91E63"</span>)) <span class="sc">+</span> </span>
+<span id="cb27-153"><a href="#cb27-153" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Distribusi Jenis Kelamin "</span>,</span>
+<span id="cb27-154"><a href="#cb27-154" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Jenis kelamin"</span>, <span class="at">y =</span> <span class="st">"jumlha mahasiswa"</span>)</span>
+<span id="cb27-155"><a href="#cb27-155" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb27-156"><a href="#cb27-156" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-157"><a href="#cb27-157" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(p)</span>
+<span id="cb27-158"><a href="#cb27-158" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb27-159"><a href="#cb27-159" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb27-160"><a href="#cb27-160" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-161"><a href="#cb27-161" aria-hidden="true" tabindex="-1"></a><span class="fu">## IPK berdasarkan Status Beasiswa</span></span>
+<span id="cb27-164"><a href="#cb27-164" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb27-165"><a href="#cb27-165" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df,<span class="fu">aes</span>(<span class="at">x=</span>penerima_beasiswa, <span class="at">y =</span> ipk, <span class="at">fill =</span> penerima_beasiswa)) <span class="sc">+</span></span>
+<span id="cb27-166"><a href="#cb27-166" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>(<span class="at">alpha =</span><span class="fl">0.8</span>, <span class="at">show.legend =</span> <span class="cn">FALSE</span>) <span class="sc">+</span> </span>
+<span id="cb27-167"><a href="#cb27-167" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_jitter</span>(<span class="at">width =</span> <span class="fl">0.15</span>, <span class="at">alpha =</span> <span class="fl">0.3</span>, <span class="at">sizq =</span> <span class="dv">1</span>) <span class="sc">+</span></span>
+<span id="cb27-168"><a href="#cb27-168" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"#FF7043"</span>, <span class="st">"#66BB6A"</span>)) <span class="sc">+</span></span>
+<span id="cb27-169"><a href="#cb27-169" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Distribusi IPK berdasarkan Status Beasiswa"</span>, </span>
+<span id="cb27-170"><a href="#cb27-170" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"penerima_beasiswa"</span>, <span class="at">y =</span> <span class="st">"IPK"</span>)</span>
+<span id="cb27-171"><a href="#cb27-171" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb27-172"><a href="#cb27-172" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-173"><a href="#cb27-173" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-174"><a href="#cb27-174" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb27-175"><a href="#cb27-175" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-176"><a href="#cb27-176" aria-hidden="true" tabindex="-1"></a><span class="fu">## Pola jam belajar vs IPK </span></span>
+<span id="cb27-179"><a href="#cb27-179" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb27-180"><a href="#cb27-180" aria-hidden="true" tabindex="-1"></a><span class="co">#| label: fig-ipk-jam</span></span>
+<span id="cb27-181"><a href="#cb27-181" aria-hidden="true" tabindex="-1"></a><span class="co">#| fig-cap: "Hubungan jam belajar per minggu dengan IPK"</span></span>
+<span id="cb27-182"><a href="#cb27-182" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-183"><a href="#cb27-183" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-184"><a href="#cb27-184" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df, <span class="fu">aes</span>(<span class="at">x =</span> jam_belajar_perminggu, <span class="at">y =</span> ipk, <span class="at">color =</span> penerima_beasiswa)) <span class="sc">+</span> </span>
+<span id="cb27-185"><a href="#cb27-185" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">alpha =</span> <span class="fl">0.5</span>, <span class="at">size =</span> <span class="dv">2</span>) <span class="sc">+</span></span>
+<span id="cb27-186"><a href="#cb27-186" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>, <span class="at">se =</span> <span class="cn">TRUE</span>) <span class="sc">+</span></span>
+<span id="cb27-187"><a href="#cb27-187" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"#FF7043"</span>, <span class="st">"#42A5F5"</span>)) <span class="sc">+</span></span>
+<span id="cb27-188"><a href="#cb27-188" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Hubungan Jam belajar dengan IPK"</span>, </span>
+<span id="cb27-189"><a href="#cb27-189" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Jam belajar per minggu"</span>, <span class="at">y =</span> <span class="st">"IPK"</span>, <span class="at">color =</span> <span class="st">"Beasiswa"</span>)</span>
+<span id="cb27-190"><a href="#cb27-190" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb27-191"><a href="#cb27-191" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-192"><a href="#cb27-192" aria-hidden="true" tabindex="-1"></a><span class="fu">## Distribusi Pendapatan Orang Tua</span></span>
+<span id="cb27-193"><a href="#cb27-193" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-196"><a href="#cb27-196" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb27-197"><a href="#cb27-197" aria-hidden="true" tabindex="-1"></a><span class="co">#| label: fig-pendapatan</span></span>
+<span id="cb27-198"><a href="#cb27-198" aria-hidden="true" tabindex="-1"></a><span class="co">#| fig-cap: "Distribusi Pendapatan Orang Tua Mahasiswa"</span></span>
+<span id="cb27-199"><a href="#cb27-199" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-200"><a href="#cb27-200" aria-hidden="true" tabindex="-1"></a><span class="co"># Urutan ordinal pendatapan </span></span>
+<span id="cb27-201"><a href="#cb27-201" aria-hidden="true" tabindex="-1"></a>level_pend <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">" &lt; 1jt"</span>,<span class="st">"1jt - 3jt"</span>,<span class="st">"3jt - 5jt"</span>,<span class="st">"5jt - 7jt"</span>,<span class="st">"7jt - 9jt"</span>,<span class="st">"&gt; 9jt"</span>)</span>
+<span id="cb27-202"><a href="#cb27-202" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-203"><a href="#cb27-203" aria-hidden="true" tabindex="-1"></a>df <span class="sc">|&gt;</span></span>
+<span id="cb27-204"><a href="#cb27-204" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(pendapatan_orangtua) <span class="sc">|&gt;</span></span>
+<span id="cb27-205"><a href="#cb27-205" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">pendapatan_orangtua =</span> <span class="fu">factor</span>(pendapatan_orangtua, <span class="at">levels =</span> level_pend)) <span class="sc">|&gt;</span></span>
+<span id="cb27-206"><a href="#cb27-206" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> pendapatan_orangtua, <span class="at">y =</span> n, <span class="at">fill =</span> pendapatan_orangtua)) <span class="sc">+</span></span>
+<span id="cb27-207"><a href="#cb27-207" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="at">show.legend =</span> <span class="cn">FALSE</span>) <span class="sc">+</span> </span>
+<span id="cb27-208"><a href="#cb27-208" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="fu">aes</span>(<span class="at">label =</span> n), <span class="at">vjust =</span> <span class="sc">-</span><span class="fl">0.4</span>, <span class="at">size =</span> <span class="fl">3.5</span>) <span class="sc">+</span></span>
+<span id="cb27-209"><a href="#cb27-209" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_brewer</span>(<span class="at">palette =</span> <span class="st">"Blues"</span>) <span class="sc">+</span></span>
+<span id="cb27-210"><a href="#cb27-210" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Distribusi Pendapatan Orang Tua"</span>,</span>
+<span id="cb27-211"><a href="#cb27-211" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Kategori Pendapatan"</span>, <span class="at">y =</span> <span class="st">"Jumlah"</span>) <span class="sc">+</span></span>
+<span id="cb27-212"><a href="#cb27-212" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">30</span>, <span class="at">hjust =</span> <span class="dv">1</span>))</span>
+<span id="cb27-213"><a href="#cb27-213" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-214"><a href="#cb27-214" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb27-215"><a href="#cb27-215" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-216"><a href="#cb27-216" aria-hidden="true" tabindex="-1"></a><span class="fu">## Heatmap Korelasi Variable numerik</span></span>
+<span id="cb27-217"><a href="#cb27-217" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-220"><a href="#cb27-220" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb27-221"><a href="#cb27-221" aria-hidden="true" tabindex="-1"></a><span class="co">#| label: fig-korelasi</span></span>
+<span id="cb27-222"><a href="#cb27-222" aria-hidden="true" tabindex="-1"></a><span class="co">#| fig-cap: "Heatmap korelasi variabel numerik"</span></span>
+<span id="cb27-223"><a href="#cb27-223" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-224"><a href="#cb27-224" aria-hidden="true" tabindex="-1"></a>num_vars <span class="ot">&lt;-</span> df <span class="sc">|&gt;</span></span>
+<span id="cb27-225"><a href="#cb27-225" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(ipk, jam_belajar_perminggu, tinggi_badan,</span>
+<span id="cb27-226"><a href="#cb27-226" aria-hidden="true" tabindex="-1"></a>         berat_badan, bmi, jumlah_anggota_keluarga)</span>
+<span id="cb27-227"><a href="#cb27-227" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-228"><a href="#cb27-228" aria-hidden="true" tabindex="-1"></a>cor_mat <span class="ot">&lt;-</span> <span class="fu">cor</span>(num_vars, <span class="at">use =</span> <span class="st">"complete.obs"</span>)</span>
+<span id="cb27-229"><a href="#cb27-229" aria-hidden="true" tabindex="-1"></a><span class="fu">corrplot</span>(cor_mat, <span class="at">method =</span> <span class="st">"color"</span>, <span class="at">type =</span> <span class="st">"upper"</span>, </span>
+<span id="cb27-230"><a href="#cb27-230" aria-hidden="true" tabindex="-1"></a>          <span class="at">tl.col =</span> <span class="st">"black"</span>, <span class="at">tl.srt  =</span> <span class="dv">45</span>, </span>
+<span id="cb27-231"><a href="#cb27-231" aria-hidden="true" tabindex="-1"></a>          <span class="at">addCoef.col =</span> <span class="st">"black"</span>, <span class="at">number.cex =</span> <span class="fl">0.75</span>,</span>
+<span id="cb27-232"><a href="#cb27-232" aria-hidden="true" tabindex="-1"></a>          <span class="at">col =</span> <span class="fu">colorRampPalette</span>(<span class="fu">c</span>(<span class="st">"#2196F3"</span>, <span class="st">"white"</span>, <span class="st">"#E53935"</span>))(<span class="dv">200</span>))</span>
+<span id="cb27-233"><a href="#cb27-233" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb27-234"><a href="#cb27-234" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-235"><a href="#cb27-235" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-236"><a href="#cb27-236" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb27-237"><a href="#cb27-237" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-238"><a href="#cb27-238" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-239"><a href="#cb27-239" aria-hidden="true" tabindex="-1"></a><span class="fu"># Pemodelan Fitur untuk clustering</span></span>
+<span id="cb27-240"><a href="#cb27-240" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-241"><a href="#cb27-241" aria-hidden="true" tabindex="-1"></a><span class="fu">## Persiaspan fitur clustering</span></span>
+<span id="cb27-242"><a href="#cb27-242" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-245"><a href="#cb27-245" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb27-246"><a href="#cb27-246" aria-hidden="true" tabindex="-1"></a><span class="co">#| label: persiapan-fitur</span></span>
+<span id="cb27-247"><a href="#cb27-247" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-248"><a href="#cb27-248" aria-hidden="true" tabindex="-1"></a>fitur_clustering <span class="ot">&lt;-</span> df <span class="sc">|&gt;</span></span>
+<span id="cb27-249"><a href="#cb27-249" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(ipk, jam_belajar_perminggu, bmi, jumlah_anggota_keluarga) <span class="sc">|&gt;</span></span>
+<span id="cb27-250"><a href="#cb27-250" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale</span>() <span class="sc">|&gt;</span></span>
+<span id="cb27-251"><a href="#cb27-251" aria-hidden="true" tabindex="-1"></a>  <span class="fu">as.data.frame</span>()</span>
+<span id="cb27-252"><a href="#cb27-252" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-253"><a href="#cb27-253" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Fitur clustering: "</span>, <span class="fu">names</span>(fitur_clustering), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb27-254"><a href="#cb27-254" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Dimensi: "</span>, <span class="fu">nrow</span>(fitur_clustering), <span class="st">"x"</span>, <span class="fu">ncol</span>(fitur_clustering), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb27-255"><a href="#cb27-255" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-256"><a href="#cb27-256" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-257"><a href="#cb27-257" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb27-258"><a href="#cb27-258" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-259"><a href="#cb27-259" aria-hidden="true" tabindex="-1"></a><span class="fu">## Penentuan Jumlah Kluster Optimal (Elbow &amp; Shiouelte)</span></span>
+<span id="cb27-260"><a href="#cb27-260" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-263"><a href="#cb27-263" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb27-264"><a href="#cb27-264" aria-hidden="true" tabindex="-1"></a><span class="co">#| label: fig_elbow</span></span>
+<span id="cb27-265"><a href="#cb27-265" aria-hidden="true" tabindex="-1"></a><span class="co">#| fig_cap: "Metode Elbow untuk menentukan jumlah kluster"</span></span>
+<span id="cb27-266"><a href="#cb27-266" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-267"><a href="#cb27-267" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-268"><a href="#cb27-268" aria-hidden="true" tabindex="-1"></a><span class="fu">fviz_nbclust</span>(fitur_clustering, kmeans, <span class="at">method =</span> <span class="st">"wss"</span>) <span class="sc">+</span></span>
+<span id="cb27-269"><a href="#cb27-269" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Metode Elbow"</span>, </span>
+<span id="cb27-270"><a href="#cb27-270" aria-hidden="true" tabindex="-1"></a>        <span class="at">subtitle =</span> <span class="st">"Cari titik siku sebagai jumlah kluster optimal"</span>,</span>
+<span id="cb27-271"><a href="#cb27-271" aria-hidden="true" tabindex="-1"></a>        <span class="at">x =</span> <span class="st">"Jumlah kluster (k)"</span>, <span class="at">y =</span> <span class="st">"Total Within-Cluster SS"</span>)</span>
+<span id="cb27-272"><a href="#cb27-272" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-273"><a href="#cb27-273" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb27-274"><a href="#cb27-274" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-275"><a href="#cb27-275" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-278"><a href="#cb27-278" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb27-279"><a href="#cb27-279" aria-hidden="true" tabindex="-1"></a><span class="co">#| label: fig_silhouette</span></span>
+<span id="cb27-280"><a href="#cb27-280" aria-hidden="true" tabindex="-1"></a><span class="co">#| fig_cap: "Metode Silhouette untuk menentukan jumlah kluster"</span></span>
+<span id="cb27-281"><a href="#cb27-281" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-282"><a href="#cb27-282" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-283"><a href="#cb27-283" aria-hidden="true" tabindex="-1"></a><span class="fu">fviz_nbclust</span>(fitur_clustering, kmeans, <span class="at">method =</span> <span class="st">"silhouette"</span>) <span class="sc">+</span></span>
+<span id="cb27-284"><a href="#cb27-284" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Metode Silhouette"</span>, </span>
+<span id="cb27-285"><a href="#cb27-285" aria-hidden="true" tabindex="-1"></a>        <span class="at">subtitle =</span> <span class="st">"Nilai tertinggi = jumlah klaster optimal"</span>,</span>
+<span id="cb27-286"><a href="#cb27-286" aria-hidden="true" tabindex="-1"></a>        <span class="at">x =</span> <span class="st">"Jumlah kluster (k)"</span>, <span class="at">y =</span> <span class="st">"Average Silhoutte Width"</span>)</span>
+<span id="cb27-287"><a href="#cb27-287" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-288"><a href="#cb27-288" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb27-289"><a href="#cb27-289" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-290"><a href="#cb27-290" aria-hidden="true" tabindex="-1"></a><span class="fu">## Pembangunan Model K-Means</span></span>
+<span id="cb27-293"><a href="#cb27-293" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb27-294"><a href="#cb27-294" aria-hidden="true" tabindex="-1"></a><span class="co">#| label: model-kmeans</span></span>
+<span id="cb27-295"><a href="#cb27-295" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-296"><a href="#cb27-296" aria-hidden="true" tabindex="-1"></a><span class="co"># Sesuiakan k dengan hasil elbow/silhoutte di atas</span></span>
+<span id="cb27-297"><a href="#cb27-297" aria-hidden="true" tabindex="-1"></a>k_optimal <span class="ot">&lt;-</span> <span class="dv">5</span></span>
+<span id="cb27-298"><a href="#cb27-298" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-299"><a href="#cb27-299" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-300"><a href="#cb27-300" aria-hidden="true" tabindex="-1"></a>model_kmeans <span class="ot">&lt;-</span> <span class="fu">kmeans</span>(fitur_clustering, <span class="at">centers =</span> k_optimal,</span>
+<span id="cb27-301"><a href="#cb27-301" aria-hidden="true" tabindex="-1"></a>                  <span class="at">nstart =</span> <span class="dv">25</span>, <span class="at">iter.max =</span> <span class="dv">100</span>)</span>
+<span id="cb27-302"><a href="#cb27-302" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-303"><a href="#cb27-303" aria-hidden="true" tabindex="-1"></a><span class="co"># Tambahkan label klaster ke data asli</span></span>
+<span id="cb27-304"><a href="#cb27-304" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> df<span class="sc">|&gt;</span></span>
+<span id="cb27-305"><a href="#cb27-305" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">klaster =</span> <span class="fu">as.factor</span>(model_kmeans<span class="sc">$</span>cluster))</span>
+<span id="cb27-306"><a href="#cb27-306" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-307"><a href="#cb27-307" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Distribusi klaster:</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb27-308"><a href="#cb27-308" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">table</span>(df<span class="sc">$</span>klaster))</span>
+<span id="cb27-309"><a href="#cb27-309" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-310"><a href="#cb27-310" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb27-311"><a href="#cb27-311" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-312"><a href="#cb27-312" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-313"><a href="#cb27-313" aria-hidden="true" tabindex="-1"></a><span class="fu">## Visualisasi Kluster</span></span>
+<span id="cb27-314"><a href="#cb27-314" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-317"><a href="#cb27-317" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb27-318"><a href="#cb27-318" aria-hidden="true" tabindex="-1"></a><span class="co">#| label: fig-klaster-pca</span></span>
+<span id="cb27-319"><a href="#cb27-319" aria-hidden="true" tabindex="-1"></a><span class="co">#| fig-cap: "Visualisasi klaster mahaiswa (PCA 2 dimensi)"</span></span>
+<span id="cb27-320"><a href="#cb27-320" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-321"><a href="#cb27-321" aria-hidden="true" tabindex="-1"></a><span class="fu">fviz_cluster</span>(model_kmeans, <span class="at">data =</span> fitur_clustering,</span>
+<span id="cb27-322"><a href="#cb27-322" aria-hidden="true" tabindex="-1"></a>             <span class="at">geom =</span> <span class="st">"point"</span>, <span class="at">ellipse.type =</span> <span class="st">"convex"</span>,</span>
+<span id="cb27-323"><a href="#cb27-323" aria-hidden="true" tabindex="-1"></a>             <span class="at">palette =</span> <span class="fu">c</span>(<span class="st">"#2196F3"</span>, <span class="st">"#E53935"</span>, <span class="st">"#4CAF50"</span>, <span class="st">"#4ACE22"</span>, <span class="st">"#AFF12A"</span>),</span>
+<span id="cb27-324"><a href="#cb27-324" aria-hidden="true" tabindex="-1"></a>             <span class="at">ggtheme =</span> <span class="fu">theme_minimal</span>()) <span class="sc">+</span></span>
+<span id="cb27-325"><a href="#cb27-325" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Klaster Profil Mahasiswa ITERA"</span>,</span>
+<span id="cb27-326"><a href="#cb27-326" aria-hidden="true" tabindex="-1"></a>       <span class="at">subtitle =</span> <span class="fu">paste</span>(<span class="st">"K-Means dengan k ="</span>, k_optimal))</span>
+<span id="cb27-327"><a href="#cb27-327" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-328"><a href="#cb27-328" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-329"><a href="#cb27-329" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-330"><a href="#cb27-330" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-331"><a href="#cb27-331" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb27-332"><a href="#cb27-332" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-333"><a href="#cb27-333" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb27-334"><a href="#cb27-334" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-335"><a href="#cb27-335" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-336"><a href="#cb27-336" aria-hidden="true" tabindex="-1"></a><span class="fu"># Evaluasi Model</span></span>
+<span id="cb27-337"><a href="#cb27-337" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-338"><a href="#cb27-338" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-339"><a href="#cb27-339" aria-hidden="true" tabindex="-1"></a><span class="fu">## Boostrap Resampling </span></span>
+<span id="cb27-340"><a href="#cb27-340" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-341"><a href="#cb27-341" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-344"><a href="#cb27-344" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb27-345"><a href="#cb27-345" aria-hidden="true" tabindex="-1"></a><span class="co">#| label: Bootsrap</span></span>
+<span id="cb27-346"><a href="#cb27-346" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-347"><a href="#cb27-347" aria-hidden="true" tabindex="-1"></a><span class="co"># Statistik yang di-boostrap: rata-rata IPK per klaster</span></span>
+<span id="cb27-348"><a href="#cb27-348" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-349"><a href="#cb27-349" aria-hidden="true" tabindex="-1"></a>stat_ipk_klaster <span class="ot">&lt;-</span> <span class="cf">function</span>(data, indicies) {</span>
+<span id="cb27-350"><a href="#cb27-350" aria-hidden="true" tabindex="-1"></a>  d <span class="ot">&lt;-</span> data[indicies, ]</span>
+<span id="cb27-351"><a href="#cb27-351" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tapply</span>(d<span class="sc">$</span>ipk, d<span class="sc">$</span>klaster, mean)</span>
+<span id="cb27-352"><a href="#cb27-352" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb27-353"><a href="#cb27-353" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-354"><a href="#cb27-354" aria-hidden="true" tabindex="-1"></a>boot_hasil <span class="ot">&lt;-</span> <span class="fu">boot</span>(</span>
+<span id="cb27-355"><a href="#cb27-355" aria-hidden="true" tabindex="-1"></a>  <span class="at">data =</span> df,</span>
+<span id="cb27-356"><a href="#cb27-356" aria-hidden="true" tabindex="-1"></a>  <span class="at">statistic =</span> stat_ipk_klaster,</span>
+<span id="cb27-357"><a href="#cb27-357" aria-hidden="true" tabindex="-1"></a>  <span class="at">R =</span> <span class="dv">1000</span></span>
+<span id="cb27-358"><a href="#cb27-358" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb27-359"><a href="#cb27-359" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-360"><a href="#cb27-360" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"=== Hasil Bootstrap (1000 iterasi) ===</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb27-361"><a href="#cb27-361" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Estimasi rata-rata IPK perklaster: </span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb27-362"><a href="#cb27-362" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(boot_hasil<span class="sc">$</span>t0)</span>
+<span id="cb27-363"><a href="#cb27-363" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-364"><a href="#cb27-364" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 </code></pre></div><button title="Salin ke Papan Klip" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
